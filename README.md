@@ -16,7 +16,7 @@ based on the official Swiss cantonal schoolbook selection.
 
 ## Development Environment
 
-To run in development mode, copy `.env.example` to `.env` and configure the environment variables.
+To run in development mode, copy `.env.dev.example` to `.env` and configure the environment variables.
 
 You can now run the frontend in development mode:
 
@@ -41,19 +41,24 @@ npm run build
 The built frontend in the `dist` folder can now be deployed as a static webpage, for example via
 [GitHub Pages](https://pages.github.com) through [GitHub Actions](https://github.com/marketplace/actions/deploy-to-github-pages).
 
-The Soketi Websocket Server can be deployed on any VPS or cloud provider via Docker. For production use, the distroless
-image of Soketi is recommended: `soketi:1.5-16-distroless`. If you need a reverse proxy, use Nginx with the following
-configuration. Don't forget to get a free SSL certificate from Let's Encrypt!
+The Soketi Websocket Server can be deployed on any VPS or cloud provider via Docker. You can use the following
+command after setting up your `.env` file:
 
+```bash
+  docker run -d -p 6001:6001 --restart unless-stopped --env-file .env quay.io/soketi/soketi:1.5-16-distroless
+```
+
+If you need a reverse proxy, use Nginx with the following configuration. Don't forget to get a free SSL certificate from
+Let's Encrypt!
 
 ```
 server {
   listen 80;
   listen [::]:80;
-  server_name YOUR_WEBSOCKET_DOMAIN;
+  server_name websocket.plapper.ch;
 
   location /app/ {
-    proxy_pass http://127.0.0.1:SOKETI_PORT;
+    proxy_pass http://127.0.0.1:6001;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "Upgrade";
