@@ -1,0 +1,117 @@
+@import 'animate.css/animate.css';
+@import '@fontsource/ubuntu-mono/latin.css';
+@import '@fontsource/ubuntu/latin.css';
+@import 'eva-icons/style/eva-icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** Default styling and utility classes */
+body {
+  @apply bg-neutral-50;
+}
+
+/** Fonts and text */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-3xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/** Responsive fonts */
+.resFontSizeNormal {
+  @apply text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl;
+}
+
+.resFontSizeLarge {
+  @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl;
+}
+
+.resFontSizeExtraLarge {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+}
+
+.resFontSizeUltraLarge {
+  @apply text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl;
+}
+
+/** Responsive spacers */
+
+.resMarginY {
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+}
+
+.resMarginYTop {
+  margin-top: 1.5vh;
+}
+
+.resMarginYBottom {
+  margin-bottom: 1.5vh;
+}
+
+/** Utility classes */
+
+.gameBoxTeacher {
+  @apply w-full xl:w-4/5 mx-auto rounded-b-3xl
+}
+
+.gameBoxStudent {
+  @apply w-full lg:w-2/3 mx-auto rounded-b-3xl
+}
+
+/** Forms */
+select, textarea, input[type='text'], input[type='password'], input[type='email'],
+input[type='number'], input[type='url'], input[type='date'], input[type='datetime-local'],
+input[type='month'], input[type='week'], input[type='time'], input[type='search'], input[type='tel'] {
+  @apply border-0 focus:ring-0 text-black rounded;
+}
+
+input[type='checkbox'], input[type='radio'] {
+  @apply border-none rounded text-gray-800 border-2 focus:ring-offset-0 focus:ring-0 focus:outline-none w-4 h-4 align-bottom relative;
+  top: -0.25rem;
+}
+
+button, button.buttonPink, input[type='button'], input[type='button'].buttonPink, input[type='submit'], input[type='submit'].buttonPink {
+  @apply bg-rose-700 hover:bg-rose-600 text-white py-2 px-4 border-b-4 border-pink-900 hover:border-pink-700 rounded;
+}
+
+button.buttonGreen, input[type='button'].buttonGreen, input[type='submit'].buttonGreen {
+  @apply bg-green-700 hover:bg-green-600 border-green-900 hover:border-green-700;
+}
+
+button.buttonBlue, input[type='button'].buttonBlue, input[type='submit'].buttonBlue {
+  @apply bg-blue-700 hover:bg-blue-600 border-blue-900 hover:border-blue-700;
+}
+
+button.buttonOrange, input[type='button'].buttonOrange, input[type='submit'].buttonOrange {
+  @apply bg-orange-700 hover:bg-orange-600 border-orange-900 hover:border-orange-700;
+}
+
+button:disabled, input[type='button']:disabled, input[type='submit']:disabled {
+  @apply bg-gray-500 hover:bg-gray-500 border-gray-600 hover:border-gray-600;
+}
+
+/** Icons */
+i.eva {
+  @apply align-text-bottom;
+}

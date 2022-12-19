@@ -1,0 +1,1590 @@
+[
+  {
+    "name": "Unité 1",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "ein Internat",
+            "foreign": "un internat"
+          },
+          {
+            "native": "eine Traumschule",
+            "foreign": "une école de rêve"
+          },
+          {
+            "native": "Man muss sein Zimmer teilen.",
+            "foreign": "On doit partager sa chambre."
+          },
+          {
+            "native": "Man ist weit weg von zu Hause.",
+            "foreign": "On est loin de sa maison."
+          },
+          {
+            "native": "das Schwimmbad, der Pool",
+            "foreign": "la piscine"
+          },
+          {
+            "native": "der Sportplatz",
+            "foreign": "le terrain de sport"
+          },
+          {
+            "native": "sportlich",
+            "foreign": "sportif/ive"
+          },
+          {
+            "native": "reich",
+            "foreign": "riche/-"
+          },
+          {
+            "native": "die Kantine, das Schul-/Firmenrestaurant",
+            "foreign": "la cantine"
+          },
+          {
+            "native": "teuer",
+            "foreign": "cher/chère"
+          },
+          {
+            "native": "Es hat sechs Schülerinnen/Schüler pro Klasse.",
+            "foreign": "Il y a six élèves par classe."
+          },
+          {
+            "native": "sich konzentrieren",
+            "foreign": "se concentrer"
+          },
+          {
+            "native": "ruhig/still arbeiten",
+            "foreign": "travailler en silence"
+          },
+          {
+            "native": "Blödsinn machen",
+            "foreign": "faire des bêtises "
+          },
+          {
+            "native": "die Regel, der Massstab",
+            "foreign": "la règle"
+          },
+          {
+            "native": "ein abwechslungsreicher Stundenplan",
+            "foreign": "un emploi du temps varié"
+          },
+          {
+            "native": "ein Ausflug",
+            "foreign": "une excursion"
+          },
+          {
+            "native": "Das ist mir egal.",
+            "foreign": "Ça m’est égal."
+          },
+          {
+            "native": "Das ist nichts für mich.",
+            "foreign": "Ce n’est rien pour moi."
+          },
+          {
+            "native": "das Zeichnen, die Zeichnung",
+            "foreign": "le dessin"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "das Lieblingsfach",
+            "foreign": "la matière préférée"
+          },
+          {
+            "native": "hassen",
+            "foreign": "détester"
+          },
+          {
+            "native": "der Mathelehrer/die Mathelehrerin",
+            "foreign": "le/la prof de maths "
+          },
+          {
+            "native": "streng",
+            "foreign": "sévère/-"
+          },
+          {
+            "native": "geduldig",
+            "foreign": "patient/e"
+          },
+          {
+            "native": "gut/schlecht erklären",
+            "foreign": "expliquer bien/mal"
+          },
+          {
+            "native": "Er gibt uns wenig Hausaufgaben.",
+            "foreign": "Il nous donne peu de devoirs."
+          },
+          {
+            "native": "schwierig",
+            "foreign": "difficile/-"
+          },
+          {
+            "native": "interessant",
+            "foreign": "intéressant/e"
+          },
+          {
+            "native": "langweilig, unangenehm",
+            "foreign": "ennuyeux/euse"
+          },
+          {
+            "native": "anstrengend, hart, zäh",
+            "foreign": "dur/e"
+          },
+          {
+            "native": "wichtig für die Zukunft",
+            "foreign": "important/e pour l’avenir "
+          },
+          {
+            "native": "gut sein in Geschichte",
+            "foreign": "être fort/e en histoire."
+          },
+          {
+            "native": "gute/schlechte Noten haben",
+            "foreign": "avoir de bonnes/mauvaises notes "
+          },
+          {
+            "native": "Ich denke, dass …",
+            "foreign": "Je pense que…"
+          },
+          {
+            "native": "aber",
+            "foreign": "mais"
+          },
+          {
+            "native": "Ich auch.",
+            "foreign": "Moi aussi."
+          },
+          {
+            "native": "Ich nicht.",
+            "foreign": "Moi pas."
+          },
+          {
+            "native": "Ich bin nicht einverstanden.",
+            "foreign": "Je ne suis pas d’accord."
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "um Viertel nach eins",
+            "foreign": "à une heure et quart"
+          },
+          {
+            "native": "um halb drei",
+            "foreign": "à deux heures et demie"
+          },
+          {
+            "native": "um Viertel vor vier",
+            "foreign": "à quatre heures moins le quart"
+          },
+          {
+            "native": "Der Unterricht endet am Mittag.",
+            "foreign": "Les cours se terminent à midi."
+          },
+          {
+            "native": "der Morgen, am Morgen",
+            "foreign": "le matin"
+          },
+          {
+            "native": "beginnen, anfangen",
+            "foreign": "commencer"
+          },
+          {
+            "native": "der Abend, am Abend",
+            "foreign": "le soir"
+          },
+          {
+            "native": "trainieren",
+            "foreign": "s’entraîner"
+          },
+          {
+            "native": "nie",
+            "foreign": "ne ... jamais"
+          },
+          {
+            "native": "immer, immer noch",
+            "foreign": "toujours"
+          },
+          {
+            "native": "nicht mehr",
+            "foreign": "ne ... plus"
+          },
+          {
+            "native": "noch",
+            "foreign": "encore"
+          },
+          {
+            "native": "niemand",
+            "foreign": "ne ... personne"
+          },
+          {
+            "native": "alle",
+            "foreign": "tout le monde"
+          },
+          {
+            "native": "nichts",
+            "foreign": "ne ... rien"
+          },
+          {
+            "native": "alles",
+            "foreign": "tout"
+          },
+          {
+            "native": "nicht",
+            "foreign": "ne ... pas"
+          },
+          {
+            "native": "Das ist keine gute Idee.",
+            "foreign": "Ce n’est pas une bonne idée."
+          },
+          {
+            "native": "Das ist wahr.",
+            "foreign": "C’est vrai."
+          },
+          {
+            "native": "etw. lesen",
+            "foreign": "lire qc "
+          },
+          {
+            "native": "jmdm. etw. schreiben",
+            "foreign": "écrire qc à qn"
+          },
+          {
+            "native": "genug",
+            "foreign": "assez de"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unité 2",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "ein Geburtstag",
+            "foreign": "un anniversaire"
+          },
+          {
+            "native": "der Name, der Nachname",
+            "foreign": "le nom"
+          },
+          {
+            "native": "man nennt sie/ihn/es",
+            "foreign": "on l’appelle"
+          },
+          {
+            "native": "die Farbe",
+            "foreign": "la couleur"
+          },
+          {
+            "native": "das Licht",
+            "foreign": "la lumière"
+          },
+          {
+            "native": "der Bau, die Konstruktion",
+            "foreign": "la construction"
+          },
+          {
+            "native": "kosten",
+            "foreign": "coûter"
+          },
+          {
+            "native": "zahlen, bezahlen",
+            "foreign": "payer"
+          },
+          {
+            "native": "aus Eisen",
+            "foreign": "en fer "
+          },
+          {
+            "native": "Sie misst vier Meter.",
+            "foreign": "Elle mesure quatre mètres."
+          },
+          {
+            "native": "ungefähr, etwa",
+            "foreign": "environ"
+          },
+          {
+            "native": "Er wiegt zwei Kilo.",
+            "foreign": "Il pèse deux kilos."
+          },
+          {
+            "native": "Sie ist drei Meter hoch.",
+            "foreign": "Elle fait trois mètres de haut."
+          },
+          {
+            "native": "lang",
+            "foreign": "long/longue"
+          },
+          {
+            "native": "breit",
+            "foreign": "large/-"
+          },
+          {
+            "native": "bis",
+            "foreign": "jusqu’à"
+          },
+          {
+            "native": "die Grösse, Kleidergrösse",
+            "foreign": "la taille"
+          },
+          {
+            "native": "jung",
+            "foreign": "jeune/-"
+          },
+          {
+            "native": "Es ist möglich, zu ...",
+            "foreign": "Il est possible de..."
+          },
+          {
+            "native": "stark, kräftig",
+            "foreign": "fort/e"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "ein Gegenstand",
+            "foreign": "un objet"
+          },
+          {
+            "native": "das Material, der Werkstoff",
+            "foreign": "la matière"
+          },
+          {
+            "native": "aus Holz",
+            "foreign": "en bois "
+          },
+          {
+            "native": "aus Plastik",
+            "foreign": "en plastique "
+          },
+          {
+            "native": "aus Metall",
+            "foreign": "en métal "
+          },
+          {
+            "native": "aus Stoff, Gewebe",
+            "foreign": "en tissu "
+          },
+          {
+            "native": "aus Glas",
+            "foreign": "en verre "
+          },
+          {
+            "native": "aus Leder",
+            "foreign": "en cuir "
+          },
+          {
+            "native": "aus Stein",
+            "foreign": "en pierre "
+          },
+          {
+            "native": "die Armbanduhr",
+            "foreign": "la montre"
+          },
+          {
+            "native": "die Turnschuhe",
+            "foreign": "les baskets "
+          },
+          {
+            "native": "das Bett",
+            "foreign": "le lit"
+          },
+          {
+            "native": "rechteckig",
+            "foreign": "rectangulaire/-"
+          },
+          {
+            "native": "rund",
+            "foreign": "rond/e"
+          },
+          {
+            "native": "oval",
+            "foreign": "ovale/-"
+          },
+          {
+            "native": "schwer",
+            "foreign": "lourd/e"
+          },
+          {
+            "native": "leicht",
+            "foreign": "léger/légère"
+          },
+          {
+            "native": "kurz",
+            "foreign": "court/e"
+          },
+          {
+            "native": "alt",
+            "foreign": "vieux/vieille"
+          },
+          {
+            "native": "eine Treppe",
+            "foreign": "un escalier"
+          },
+          {
+            "native": "manchmal",
+            "foreign": "parfois"
+          },
+          {
+            "native": "oft",
+            "foreign": "souvent"
+          },
+          {
+            "native": "auf",
+            "foreign": "sur"
+          },
+          {
+            "native": "unter",
+            "foreign": "sous"
+          },
+          {
+            "native": "in",
+            "foreign": "dans"
+          },
+          {
+            "native": "vor",
+            "foreign": "devant"
+          },
+          {
+            "native": "hinter",
+            "foreign": "derrière"
+          },
+          {
+            "native": "neben",
+            "foreign": "à côté de"
+          },
+          {
+            "native": "Man braucht es zum Kochen.",
+            "foreign": "On l’utilise pour faire la cuisine."
+          },
+          {
+            "native": "sehen",
+            "foreign": "voir"
+          },
+          {
+            "native": "legen, stellen, anziehen",
+            "foreign": "mettre"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "Das Gerät gibt es seit 1930.",
+            "foreign": "L’appareil existe depuis 1930."
+          },
+          {
+            "native": "lange",
+            "foreign": "longtemps"
+          },
+          {
+            "native": "überall",
+            "foreign": "partout"
+          },
+          {
+            "native": "das Auto",
+            "foreign": "la voiture"
+          },
+          {
+            "native": "das Schiff, das Boot",
+            "foreign": "le bateau"
+          },
+          {
+            "native": "der Zug",
+            "foreign": "le train"
+          },
+          {
+            "native": "ein Flugzeug",
+            "foreign": "un avion"
+          },
+          {
+            "native": "die Gabel",
+            "foreign": "la fourchette"
+          },
+          {
+            "native": "das Messer",
+            "foreign": "le couteau"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unité 3",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "ein Tier, die Tiere",
+            "foreign": "un animal, les animaux "
+          },
+          {
+            "native": "der Fisch",
+            "foreign": "le poisson"
+          },
+          {
+            "native": "der Hai",
+            "foreign": "le requin"
+          },
+          {
+            "native": "ein Vogel",
+            "foreign": "un oiseau"
+          },
+          {
+            "native": "das Weibchen",
+            "foreign": "la femelle"
+          },
+          {
+            "native": "das Männchen",
+            "foreign": "le mâle"
+          },
+          {
+            "native": "Er ist drei Meter lang.",
+            "foreign": "Il fait trois mètres de long."
+          },
+          {
+            "native": "Er wiegt etwa drei Kilo.",
+            "foreign": "Il pèse environ trois kilos."
+          },
+          {
+            "native": "Im Durchschnitt lebt eine Katze 15 Jahre.",
+            "foreign": "En moyenne, un chat vit 15 ans."
+          },
+          {
+            "native": "das Leben",
+            "foreign": "la vie"
+          },
+          {
+            "native": "Sie bekommt ein Junges.",
+            "foreign": "Elle donne naissance à un petit."
+          },
+          {
+            "native": "allein, einzig",
+            "foreign": "seul/e"
+          },
+          {
+            "native": "die Nahrung, die Ernährung",
+            "foreign": "la nourriture"
+          },
+          {
+            "native": "vegetarisch",
+            "foreign": "végétarien/ne"
+          },
+          {
+            "native": "fleischfressend",
+            "foreign": "carnivore/-"
+          },
+          {
+            "native": "die Beute",
+            "foreign": "la proie"
+          },
+          {
+            "native": "fangen",
+            "foreign": "capturer"
+          },
+          {
+            "native": "der Zahn",
+            "foreign": "la dent"
+          },
+          {
+            "native": "gefährlich",
+            "foreign": "dangereux/euse"
+          },
+          {
+            "native": "riesig",
+            "foreign": "énorme/-"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "das Säugetier",
+            "foreign": "le mammifère"
+          },
+          {
+            "native": "das Maul, die Fresse",
+            "foreign": "la gueule"
+          },
+          {
+            "native": "die Pfote, das Bein ",
+            "foreign": "la patte"
+          },
+          {
+            "native": "der Schwanz",
+            "foreign": "la queue"
+          },
+          {
+            "native": "das Fell",
+            "foreign": "le pelage"
+          },
+          {
+            "native": "ein Flügel",
+            "foreign": "une aile"
+          },
+          {
+            "native": "fliegen, stehlen",
+            "foreign": "voler"
+          },
+          {
+            "native": "der Urwald",
+            "foreign": "la forêt vierge"
+          },
+          {
+            "native": "der Berg",
+            "foreign": "la montagne"
+          },
+          {
+            "native": "Sie leben im Meer.",
+            "foreign": "Ils vivent dans la mer."
+          },
+          {
+            "native": "der See",
+            "foreign": "le lac"
+          },
+          {
+            "native": "sich verstecken",
+            "foreign": "se cacher"
+          },
+          {
+            "native": "angreifen",
+            "foreign": "attaquer"
+          },
+          {
+            "native": "töten",
+            "foreign": "tuer"
+          },
+          {
+            "native": "ein Haustier",
+            "foreign": "un animal de compagnie"
+          },
+          {
+            "native": "der Käfig",
+            "foreign": "la cage"
+          },
+          {
+            "native": "Die Kuh gibt uns Milch.",
+            "foreign": "La vache nous donne du lait."
+          },
+          {
+            "native": "Sie macht mir Angst.",
+            "foreign": "Elle me fait peur."
+          },
+          {
+            "native": "schmutzig",
+            "foreign": "sale/-"
+          },
+          {
+            "native": "Krankheiten übertragen",
+            "foreign": "transmettre des maladies "
+          },
+          {
+            "native": "Lärm machen",
+            "foreign": "faire du bruit"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "die Maus",
+            "foreign": "la souris"
+          },
+          {
+            "native": "essen",
+            "foreign": "manger"
+          },
+          {
+            "native": "der Käse",
+            "foreign": "le fromage"
+          },
+          {
+            "native": "Hunger haben",
+            "foreign": "avoir faim "
+          },
+          {
+            "native": "Durst haben",
+            "foreign": "avoir soif "
+          },
+          {
+            "native": "Ich trinke ein Glas Wasser.",
+            "foreign": "Je bois un verre d’eau."
+          },
+          {
+            "native": "die Frucht",
+            "foreign": "le fruit"
+          },
+          {
+            "native": "das Gemüse",
+            "foreign": "le légume"
+          },
+          {
+            "native": "der Salat",
+            "foreign": "la salade"
+          },
+          {
+            "native": "das Fleisch",
+            "foreign": "la viande"
+          },
+          {
+            "native": "der Honig",
+            "foreign": "le miel"
+          },
+          {
+            "native": "der Zucker",
+            "foreign": "le sucre"
+          },
+          {
+            "native": "wie viel/e",
+            "foreign": "combien de"
+          },
+          {
+            "native": "kein/e",
+            "foreign": "pas de"
+          },
+          {
+            "native": "wenig",
+            "foreign": "peu de"
+          },
+          {
+            "native": "ein wenig, ein bisschen",
+            "foreign": "un peu de"
+          },
+          {
+            "native": "viel",
+            "foreign": "beaucoup de"
+          },
+          {
+            "native": "zu viel/e",
+            "foreign": "trop de"
+          },
+          {
+            "native": "ein Stück",
+            "foreign": "un morceau de"
+          },
+          {
+            "native": "eine Flasche",
+            "foreign": "une bouteille de"
+          },
+          {
+            "native": "wissen, können",
+            "foreign": "savoir"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unité 4",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "der Wettkampf, der Wettbewerb",
+            "foreign": "la compétition"
+          },
+          {
+            "native": "Das Spielfeld ist neun Meter breit.",
+            "foreign": "Le terrain fait neuf mètres de large."
+          },
+          {
+            "native": "eine Sportart ausüben",
+            "foreign": "pratiquer un sport"
+          },
+          {
+            "native": "der Spieler/die Spielerin",
+            "foreign": "le joueur/la joueuse"
+          },
+          {
+            "native": "eine Mannschaft mit sechs Spielern",
+            "foreign": "une équipe de six joueurs"
+          },
+          {
+            "native": "hart, anstrengend, zäh",
+            "foreign": "dur/e"
+          },
+          {
+            "native": "jmdn./etw. brauchen",
+            "foreign": "avoir besoin de qn/qc"
+          },
+          {
+            "native": "das Schwimmbad, der Pool",
+            "foreign": "la piscine"
+          },
+          {
+            "native": "Eine Halbzeit dauert 45 Minuten.",
+            "foreign": "Une mi-temps dure 45 minutes."
+          },
+          {
+            "native": "das Spiel, der Match",
+            "foreign": "le match"
+          },
+          {
+            "native": "man muss, es braucht",
+            "foreign": "il faut"
+          },
+          {
+            "native": "vor",
+            "foreign": "avant"
+          },
+          {
+            "native": "einen Punkt erzielen, machen",
+            "foreign": "marquer un point"
+          },
+          {
+            "native": "ein Tor schiessen, einen Treffer erzielen",
+            "foreign": "marquer un but"
+          },
+          {
+            "native": "auf das Tor schiessen",
+            "foreign": "tirer sur le but"
+          },
+          {
+            "native": "der Sprung",
+            "foreign": "le saut"
+          },
+          {
+            "native": "einfach zu lernen",
+            "foreign": "facile/- à apprendre"
+          },
+          {
+            "native": "gewinnen, verdienen",
+            "foreign": "gagner"
+          },
+          {
+            "native": "Der Sport gefällt mir.",
+            "foreign": "Le sport me plaît."
+          },
+          {
+            "native": "der Wintersport, die Wintersportart",
+            "foreign": "le sport dʼhiver"
+          },
+          {
+            "native": "der Mannschaftssport",
+            "foreign": "le sport dʼéquipe"
+          },
+          {
+            "native": "schnell",
+            "foreign": "rapide/-"
+          },
+          {
+            "native": "seltsam",
+            "foreign": "bizarre/-"
+          },
+          {
+            "native": "faszinierend, fesselnd, spannend",
+            "foreign": "passionnant/e"
+          },
+          {
+            "native": "ein Training",
+            "foreign": "un entraînement"
+          },
+          {
+            "native": "trainieren",
+            "foreign": "sʼentraîner"
+          },
+          {
+            "native": "jmdm. Freude, Spass machen",
+            "foreign": "faire plaisir à qn"
+          },
+          {
+            "native": "schlitteln, rodeln",
+            "foreign": "faire de la luge"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "jmdm. einen Pass zuspielen",
+            "foreign": "faire une passe à qn"
+          },
+          {
+            "native": "ein Gegner/eine Gegnerin",
+            "foreign": "un/une adversaire"
+          },
+          {
+            "native": "eine Ausrüstung",
+            "foreign": "un équipement"
+          },
+          {
+            "native": "der Ball",
+            "foreign": "le ballon"
+          },
+          {
+            "native": "der Ball",
+            "foreign": "la balle"
+          },
+          {
+            "native": "das Sporttrikot",
+            "foreign": "le maillot "
+          },
+          {
+            "native": "der Handschuh",
+            "foreign": "le gant"
+          },
+          {
+            "native": "der Schläger",
+            "foreign": "la raquette"
+          },
+          {
+            "native": "der Schläger",
+            "foreign": "la crosse"
+          },
+          {
+            "native": "einen Helm tragen",
+            "foreign": "porter un casque"
+          },
+          {
+            "native": "der Schutz, der Schoner",
+            "foreign": "la protection"
+          },
+          {
+            "native": "in der Mitte von",
+            "foreign": "au milieu de"
+          },
+          {
+            "native": "das Netz",
+            "foreign": "le filet"
+          },
+          {
+            "native": "die Regel",
+            "foreign": "la règle"
+          },
+          {
+            "native": "Man hat diesen Sport in China erfunden.",
+            "foreign": "On a inventé ce sport en Chine."
+          },
+          {
+            "native": "ein Schiedsrichter/eine Schiedsrichterin",
+            "foreign": "un/une arbitre"
+          },
+          {
+            "native": "das Schwimmen, der Schwimmsport",
+            "foreign": "la natation"
+          },
+          {
+            "native": "eine Übung",
+            "foreign": "un exercice"
+          },
+          {
+            "native": "wählen",
+            "foreign": "choisir"
+          },
+          {
+            "native": "beenden, enden, fertig werden",
+            "foreign": "finir"
+          },
+          {
+            "native": "das Rennen",
+            "foreign": "la course"
+          },
+          {
+            "native": "berühmt",
+            "foreign": "célèbre/-"
+          },
+          {
+            "native": "langsam",
+            "foreign": "lent/e"
+          },
+          {
+            "native": "werfen",
+            "foreign": "lancer"
+          },
+          {
+            "native": "fangen",
+            "foreign": "attraper"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "die Distanz, die Strecke",
+            "foreign": "la distance"
+          },
+          {
+            "native": "etwa",
+            "foreign": "environ"
+          },
+          {
+            "native": "existieren",
+            "foreign": "exister"
+          },
+          {
+            "native": "seit",
+            "foreign": "depuis"
+          },
+          {
+            "native": "erste/r/s",
+            "foreign": "premier/première"
+          },
+          {
+            "native": "zweite/r/s",
+            "foreign": "deuxième/-"
+          },
+          {
+            "native": "dritte/r/s",
+            "foreign": "troisième/-"
+          },
+          {
+            "native": "letzte/r/s",
+            "foreign": "dernier/dernière"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unité 5",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "das Fest, die Party",
+            "foreign": "la fête"
+          },
+          {
+            "native": "mit jmdm. sprechen",
+            "foreign": "parler à qn"
+          },
+          {
+            "native": "süss, niedlich",
+            "foreign": "mignon/mignonne"
+          },
+          {
+            "native": "Wie geht es?",
+            "foreign": "Ça va?"
+          },
+          {
+            "native": "jmdn. einladen",
+            "foreign": "inviter qn"
+          },
+          {
+            "native": "eine Wohnung",
+            "foreign": "un appartement"
+          },
+          {
+            "native": "Ich finde, dass ...",
+            "foreign": "Je trouve que..."
+          },
+          {
+            "native": "denken",
+            "foreign": "penser"
+          },
+          {
+            "native": "Natürlich! Selbstverständlich! Logisch!",
+            "foreign": "Bien sûr."
+          },
+          {
+            "native": "Es tut mir leid.",
+            "foreign": "Je suis désolé/e."
+          },
+          {
+            "native": "der Termin, die Verabredung, das Date",
+            "foreign": "le rendez-vous"
+          },
+          {
+            "native": "Wir sind zusammen .",
+            "foreign": "Nous sortons ensemble."
+          },
+          {
+            "native": "in jmdn. verliebt sein",
+            "foreign": "être amoureux/euse de qn"
+          },
+          {
+            "native": "sich küssen, sich umarmen",
+            "foreign": "sʼembrasser"
+          },
+          {
+            "native": "über jmdn. verärgert sein, auf jmdn. sauer sein",
+            "foreign": "être fâché/e contre qn"
+          },
+          {
+            "native": "auf jmdn. eifersüchtig sein",
+            "foreign": "être jaloux/jalouse de qn"
+          },
+          {
+            "native": "traurig",
+            "foreign": "triste/-"
+          },
+          {
+            "native": "jmdn. anmachen",
+            "foreign": "draguer qn"
+          },
+          {
+            "native": "sich rächen",
+            "foreign": "se venger"
+          },
+          {
+            "native": "endlich, schliesslich",
+            "foreign": "enfin"
+          },
+          {
+            "native": "jmdn. treffen",
+            "foreign": "rencontrer qn"
+          },
+          {
+            "native": "Bis bald.",
+            "foreign": "À bientôt."
+          },
+          {
+            "native": "der Lügner/die Lügnerin",
+            "foreign": "le menteur/la menteuse"
+          },
+          {
+            "native": "sich aufregen",
+            "foreign": "sʼénerver"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "jmdm. etw. geben",
+            "foreign": "donner qc à qn"
+          },
+          {
+            "native": "die Blume",
+            "foreign": "la fleur"
+          },
+          {
+            "native": "jmdm. zuhören/etw. anhören",
+            "foreign": "écouter qn/qc"
+          },
+          {
+            "native": "der Kollege/die Kollegin",
+            "foreign": "le copain/la copine"
+          },
+          {
+            "native": "der feste Freund/die feste Freundin",
+            "foreign": "le petit copain/la petite copine"
+          },
+          {
+            "native": "jmdn. betrügen, täuschen",
+            "foreign": "tromper qn"
+          },
+          {
+            "native": "jmdm. einen Brief schreiben",
+            "foreign": "écrire une lettre à qn"
+          },
+          {
+            "native": "jmdm. etw. zeigen",
+            "foreign": "montrer qc à qn"
+          },
+          {
+            "native": "jmdn. fragen, bitten",
+            "foreign": "demander à qn"
+          },
+          {
+            "native": "jmdm. etw. erzählen",
+            "foreign": "raconter qc à qn"
+          },
+          {
+            "native": "das Geheimnis",
+            "foreign": "le secret"
+          },
+          {
+            "native": "die Überraschung",
+            "foreign": "la surprise"
+          },
+          {
+            "native": "eine Geschichte",
+            "foreign": "une histoire"
+          },
+          {
+            "native": "jmdn./etw. anschauen",
+            "foreign": "regarder qn/qc"
+          },
+          {
+            "native": "etwas",
+            "foreign": "quelque chose"
+          },
+          {
+            "native": "jemand",
+            "foreign": "quelquʼun"
+          },
+          {
+            "native": "jmdm. helfen",
+            "foreign": "aider qn"
+          },
+          {
+            "native": "Ich habe Lisa eine Nachricht geschickt.",
+            "foreign": "Jʼai envoyé un message à Lisa."
+          },
+          {
+            "native": "jmdm. antworten",
+            "foreign": "répondre à qn"
+          },
+          {
+            "native": "auf jmdn./etw. warten",
+            "foreign": "attendre qn/qc"
+          },
+          {
+            "native": "jmdn./etw. verlieren",
+            "foreign": "perdre qn/qc"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "der nächste Montag, am nächsten Montag",
+            "foreign": "lundi prochain"
+          },
+          {
+            "native": "der folgende Tag, am Tag darauf",
+            "foreign": "le lendemain"
+          },
+          {
+            "native": "vor zwei Tagen",
+            "foreign": "il y a deux jours"
+          },
+          {
+            "native": "jmdn./etw. verlassen",
+            "foreign": "quitter qn/qc"
+          },
+          {
+            "native": "sogar",
+            "foreign": "même"
+          },
+          {
+            "native": "der/die/das gleiche",
+            "foreign": "le/la même"
+          },
+          {
+            "native": "Ich freue mich.",
+            "foreign": "Je me réjouis."
+          },
+          {
+            "native": "hinausgegangen, ausgegangen",
+            "foreign": "sorti "
+          },
+          {
+            "native": "abgereist, verreist, abgefahren, weggegangen",
+            "foreign": "parti "
+          },
+          {
+            "native": "gekommen",
+            "foreign": "venu "
+          },
+          {
+            "native": "hinuntergestiegen, -gegangen, -gefahren, ausgestiegen",
+            "foreign": "descendu "
+          },
+          {
+            "native": "sich streiten",
+            "foreign": "se disputer"
+          },
+          {
+            "native": "Verzieh dich! Zieh Leine!",
+            "foreign": "Tire-toi!"
+          },
+          {
+            "native": "der Anfang, der Beginn",
+            "foreign": "le début"
+          },
+          {
+            "native": "das Ende",
+            "foreign": "la fin"
+          },
+          {
+            "native": "nett",
+            "foreign": "gentil/gentille"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unité 6",
+    "lessons": [
+      {
+        "name": "Lernziel 1",
+        "expressions": [
+          {
+            "native": "Dieses Lied macht mich glücklich.",
+            "foreign": "Cette chanson me rend heureux/heureuse."
+          },
+          {
+            "native": "der Musikstil",
+            "foreign": "le style de musique"
+          },
+          {
+            "native": "Die Melodie gefällt mir.",
+            "foreign": "La mélodie me plaît."
+          },
+          {
+            "native": "der Sänger/die Sängerin",
+            "foreign": "le chanteur/la chanteuse"
+          },
+          {
+            "native": "die Stimme",
+            "foreign": "la voix"
+          },
+          {
+            "native": "die Gruppe, die Band",
+            "foreign": "le groupe"
+          },
+          {
+            "native": "singen",
+            "foreign": "chanter"
+          },
+          {
+            "native": "das Zimmer aufräumen",
+            "foreign": "ranger la chambre"
+          },
+          {
+            "native": "der Beruf",
+            "foreign": "le métier"
+          },
+          {
+            "native": "versuchen, probieren",
+            "foreign": "essayer"
+          },
+          {
+            "native": "brav, weise",
+            "foreign": "sage/-"
+          },
+          {
+            "native": "schüchtern",
+            "foreign": "timide/-"
+          },
+          {
+            "native": "frei",
+            "foreign": "libre/-"
+          },
+          {
+            "native": "allein, einzig, nur",
+            "foreign": "seul/e"
+          },
+          {
+            "native": "faul, träge",
+            "foreign": "paresseux/euse"
+          },
+          {
+            "native": "die Strasse",
+            "foreign": "la rue"
+          },
+          {
+            "native": "die Strasse, die Route",
+            "foreign": "la route"
+          },
+          {
+            "native": "fröhlich",
+            "foreign": "joyeux/euse"
+          },
+          {
+            "native": "altmodisch",
+            "foreign": "ringard/e"
+          },
+          {
+            "native": "fast",
+            "foreign": "presque"
+          },
+          {
+            "native": "die Erinnerung",
+            "foreign": "le souvenir"
+          },
+          {
+            "native": "ein Teenager, ein Jugendlicher/eine Jugendliche",
+            "foreign": "un/une ado"
+          },
+          {
+            "native": "die Vergangenheit",
+            "foreign": "le passé"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 2",
+        "expressions": [
+          {
+            "native": "die Freizeitbeschäftigungen, die Hobbys",
+            "foreign": "les loisirs "
+          },
+          {
+            "native": "die Grosseltern",
+            "foreign": "les grands-parents "
+          },
+          {
+            "native": "in die Ferien gehen",
+            "foreign": "aller en vacances "
+          },
+          {
+            "native": "oft",
+            "foreign": "souvent"
+          },
+          {
+            "native": "immer",
+            "foreign": "toujours"
+          },
+          {
+            "native": "die Familie",
+            "foreign": "la famille"
+          },
+          {
+            "native": "am Meer",
+            "foreign": "au bord de la mer"
+          },
+          {
+            "native": "das Dorf",
+            "foreign": "le village"
+          },
+          {
+            "native": "in die Stadt, in der Stadt",
+            "foreign": "en ville "
+          },
+          {
+            "native": "das Quartier",
+            "foreign": "le quartier"
+          },
+          {
+            "native": "tragen",
+            "foreign": "porter"
+          },
+          {
+            "native": "die Kleider",
+            "foreign": "les vêtements "
+          },
+          {
+            "native": "der Kollege/die Kollegin",
+            "foreign": "le copain/la copine"
+          },
+          {
+            "native": "lange Haare haben",
+            "foreign": "avoir les cheveux longs"
+          },
+          {
+            "native": "ein Haustier",
+            "foreign": "un animal de compagnie"
+          },
+          {
+            "native": "lachen",
+            "foreign": "rigoler"
+          },
+          {
+            "native": "das Taschengeld",
+            "foreign": "lʼargent  de poche"
+          },
+          {
+            "native": "das Lieblingsgericht",
+            "foreign": "le plat préféré"
+          },
+          {
+            "native": "abreisen, verreisen, abfahren, weggehen",
+            "foreign": "partir"
+          },
+          {
+            "native": "kommen",
+            "foreign": "venir"
+          },
+          {
+            "native": "im Frühling",
+            "foreign": "au printemps "
+          },
+          {
+            "native": "im Sommer",
+            "foreign": "en été "
+          },
+          {
+            "native": "im Herbst",
+            "foreign": "en automne "
+          },
+          {
+            "native": "im Winter",
+            "foreign": "en hiver "
+          },
+          {
+            "native": "vor allem",
+            "foreign": "surtout"
+          }
+        ]
+      },
+      {
+        "name": "Lernziel 3",
+        "expressions": [
+          {
+            "native": "heute",
+            "foreign": "aujourdʼhui"
+          },
+          {
+            "native": "morgen",
+            "foreign": "demain"
+          },
+          {
+            "native": "in zehn Jahren",
+            "foreign": "dans dix ans"
+          },
+          {
+            "native": "noch",
+            "foreign": "encore"
+          },
+          {
+            "native": "in einer WG wohnen",
+            "foreign": "habiter en colocation"
+          },
+          {
+            "native": "bald",
+            "foreign": "bientôt"
+          },
+          {
+            "native": "jmdn. heiraten",
+            "foreign": "se marier avec qn"
+          },
+          {
+            "native": "abschliessen, beenden, fertig machen",
+            "foreign": "terminer"
+          },
+          {
+            "native": "ich hätte gerne, ich würde gerne",
+            "foreign": "jʼaimerais"
+          },
+          {
+            "native": "reisen",
+            "foreign": "voyager"
+          },
+          {
+            "native": "im Ausland",
+            "foreign": "à lʼétranger "
+          },
+          {
+            "native": "die Zukunft",
+            "foreign": "lʼavenir "
+          },
+          {
+            "native": "wie, als",
+            "foreign": "comme"
+          },
+          {
+            "native": "wünschen",
+            "foreign": "souhaiter"
+          }
+        ]
+      }
+    ]
+  }
+]
