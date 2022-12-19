@@ -7,7 +7,7 @@
       <b>plapper.ch</b> wurde als digitale Spieleplattform zur Förderung im
       Fremdsprachen-Unterricht entwickelt. Als Sekundarlehrperson mit
       Informatik-Hintergrund war es mir ein Anliegen, unterhaltsame und
-      spannende digitale Lernmöglichkeiten zu schaffen.
+      spannende digitale Lernmöglichkeiten zu schaffen. Viel Spass!
     </p>
     <p class="mb-3">
       Der Aufwand begrenzt sich für die Lehrperson auf ein Minimum: Einfach
