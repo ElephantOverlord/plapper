@@ -9,12 +9,16 @@ jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
-    environment: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        env: # Environment variables
+          VITE_SOKETI_KEY: 'plapper.ch'
+          VITE_SOKETI_HOST: 'websocket.plapper.ch'
+          VITE_SOKETI_PORT: '443'
+          VITE_SOKETI_SECRET: ${{ secrets.VITE_SOKETI_SECRET }}
         run: |
           npm ci
           npm run build
