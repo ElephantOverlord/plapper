@@ -41,8 +41,10 @@ npm run build
 The built frontend in the `dist` folder can now be deployed as a static webpage, for example via
 [GitHub Pages](https://pages.github.com) through [GitHub Actions](https://github.com/marketplace/actions/deploy-to-github-pages).
 
-The Soketi Websocket Server can be deployed on any VPS or cloud provider via Docker. If you need a reverse proxy,
-use Nginx with the following configuration. Don't forget to get a free SSL certificate from Let's Encrypt!
+The Soketi Websocket Server can be deployed on any VPS or cloud provider via Docker. For production use, the distroless
+image of Soketi is recommended: `soketi:1.5-16-distroless`. If you need a reverse proxy, use Nginx with the following
+configuration. Don't forget to get a free SSL certificate from Let's Encrypt!
+
 
 ```
 server {
