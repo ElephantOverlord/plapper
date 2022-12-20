@@ -13,11 +13,14 @@
       Der Aufwand begrenzt sich für die Lehrperson auf ein Minimum: Einfach
       Spiel und Lehrmittel auswählen - los gehts!
     </p>
-    <p>
+    <p class="mb-3">
       Die Plattform befindet sich derzeit noch in der Entwicklung. Sie wird
       laufend weiterentwickelt und mit neuen Spielen und Möglichkeiten ergänzt.
       Alle Spiele sind kostenlos und können ohne Anmeldung oder Registrierung
       genutzt werden.
+    </p>
+    <p>
+      <b>plapper.ch</b> ist <a href="https://github.com/eFabrix/plapper" target="_blank">Open-Source-Software</a>.
     </p>
   </DisplayBox>
 </template>
