@@ -27,38 +27,39 @@ npm run dev
 All games rely on a running instance of the Soketi Websocket Server:
 
 ```bash
-docker run -p 6001:6001 --env-file .env quay.io/soketi/soketi:1.5-16-debian
+docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.5-16-debian
 ```
 
 ## Production Deployment
 
-To build the frontend:
+Pull the repository, copy `.env.prod.example` to `.env` and make the necessary adjustments. You can now run the stack:
 
 ```bash
-npm run build
+docker-compose up -d
 ```
 
-The built frontend in the `dist` folder can now be deployed as a static webpage, for example via
-[GitHub Pages](https://pages.github.com) through [GitHub Actions](https://github.com/marketplace/actions/deploy-to-github-pages).
-
-The Soketi Websocket Server can be deployed on any VPS or cloud provider via Docker. You can use the following
-command after setting up your `.env` file:
-
-```bash
-  docker run -d -p 6001:6001 --restart unless-stopped --env-file .env quay.io/soketi/soketi:1.5-16-distroless
-```
-
-If you need a reverse proxy, use Nginx with the following configuration. Don't forget to get a free SSL certificate from
-Let's Encrypt!
+Make sure Nginx is installed on your server and create the necessary reverse proxy:
 
 ```
 server {
   listen 80;
   listen [::]:80;
-  server_name websocket.plapper.ch;
+  server_name plapper.ch www.plapper.ch;
+
+  if ($host = plapper.ch) {
+      return 301 $scheme://www.$host$request_uri;
+  }
+
+  location / {
+    proxy_pass http://127.0.0.1:9100;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  }
 
   location /app/ {
-    proxy_pass http://127.0.0.1:6001;
+    proxy_pass http://127.0.0.1:9110;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "Upgrade";
@@ -68,5 +69,13 @@ server {
     proxy_set_header X-Forwarded-Proto $scheme;
   }
 }
+```
+
+
+Install [Certbot](https://certbot.eff.org) and get a free SSL certificate from Let's Encrypt. Don't forget to add HTTP2
+support to the generated Nginx configuration file:
+
+```bash
+sed -i "s/443 ssl/443 ssl http2/" /etc/nginx/sites-available/plapper.ch
 ```
 
