@@ -7,9 +7,7 @@ RUN npm ci
 RUN npm run build
 
 
-FROM httpd:2.4 AS docker-plapper-apache
+FROM nginx:stable-alpine AS docker-plapper-nginx
 
+COPY ./docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=docker-plapper-node /opt/plapper/dist /opt/plapper
-
-RUN rm -rf /usr/local/apache2/htdocs
-RUN ln -s /opt/plapper /usr/local/apache2/htdocs
