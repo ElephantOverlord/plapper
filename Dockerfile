@@ -1,4 +1,4 @@
-FROM node:18 AS docker-plapper-node
+FROM node:18-alpine AS docker-plapper-node
 
 COPY . /opt/plapper
 WORKDIR /opt/plapper
