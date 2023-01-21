@@ -76,6 +76,6 @@ Install [Certbot](https://certbot.eff.org) and get a free SSL certificate from L
 support to the generated Nginx configuration file:
 
 ```bash
-sed -i "s/443 ssl/443 ssl http2/" /etc/nginx/sites-available/plapper.ch
+sed -i "s/443 ssl/443 ssl http2/" /etc/nginx/conf.d/plapper.ch
 ```
 
