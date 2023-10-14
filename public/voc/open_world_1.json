@@ -1,0 +1,2314 @@
+[
+  {
+    "name": "Unit 1",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "diary",
+            "native": "Tagebuch"
+          },
+          {
+            "foreign": "hostel",
+            "native": "Herberge, (billiges) Hotel"
+          },
+          {
+            "foreign": "kilt",
+            "native": "Schottenrock, Kilt"
+          },
+          {
+            "foreign": "railway",
+            "native": "Eisenbahn"
+          },
+          {
+            "foreign": "reception",
+            "native": "Empfang, Rezeption"
+          },
+          {
+            "foreign": "Scotland",
+            "native": "Schottland"
+          },
+          {
+            "foreign": "tartan",
+            "native": "Tartan, Schottenmuster"
+          },
+          {
+            "foreign": "thief",
+            "native": "Dieb/-in"
+          },
+          {
+            "foreign": "ticket",
+            "native": "Eintrittskarte,  Billett"
+          },
+          {
+            "foreign": "tour",
+            "native": "Führung, Rundgang"
+          }
+        ]
+      },
+      {
+        "name": "02 English and me",
+        "expressions": [
+          {
+            "foreign": "each other",
+            "native": "einander"
+          },
+          {
+            "foreign": "go places",
+            "native": "es weit bringen"
+          },
+          {
+            "foreign": "journey",
+            "native": "Reise"
+          },
+          {
+            "foreign": "none",
+            "native": "kein(e, -er, -es)"
+          },
+          {
+            "foreign": "not at all",
+            "native": "überhaupt nicht"
+          }
+        ]
+      },
+      {
+        "name": "03 Ceud mile failte",
+        "expressions": [
+          {
+            "foreign": "action scene",
+            "native": "Actionszene"
+          },
+          {
+            "foreign": "besides",
+            "native": "neben"
+          },
+          {
+            "foreign": "expression",
+            "native": "Ausdruck, Wendung"
+          },
+          {
+            "foreign": "over there",
+            "native": "dort drüben"
+          },
+          {
+            "foreign": "Scottish",
+            "native": "schottisch"
+          }
+        ]
+      },
+      {
+        "name": "04 Discover the city",
+        "expressions": [
+          {
+            "foreign": "beauty",
+            "native": "Schönheit"
+          },
+          {
+            "foreign": "bike",
+            "native": "hier: Fahrrad"
+          },
+          {
+            "foreign": "book ahead",
+            "native": "im Voraus buchen"
+          },
+          {
+            "foreign": "castle",
+            "native": "Schloss, Burg"
+          },
+          {
+            "foreign": "cinema",
+            "native": "Kino"
+          },
+          {
+            "foreign": "dear",
+            "native": "Liebe(r,s) / Sehr geehrte(r,s) (Briefanrede)"
+          },
+          {
+            "foreign": "discover",
+            "native": "entdecken"
+          },
+          {
+            "foreign": "entry",
+            "native": "hierː Eintrag (in einem Wörterbuch)"
+          },
+          {
+            "foreign": "exchange",
+            "native": "austauschen, umtauschen"
+          },
+          {
+            "foreign": "excuse",
+            "native": "entschuldigen"
+          },
+          {
+            "foreign": "expensive",
+            "native": "teuer"
+          },
+          {
+            "foreign": "famous",
+            "native": "berühmt"
+          },
+          {
+            "foreign": "flight",
+            "native": "Flug"
+          },
+          {
+            "foreign": "go on a trip to",
+            "native": "eine Reise machen, einen Ausflug machen"
+          },
+          {
+            "foreign": "guide",
+            "native": "(Fremden-)Führer"
+          },
+          {
+            "foreign": "have a picnic",
+            "native": "ein Picknick machen"
+          },
+          {
+            "foreign": "left",
+            "native": "links"
+          },
+          {
+            "foreign": "pleasure",
+            "native": "Freude, Vergnügen"
+          },
+          {
+            "foreign": "pub",
+            "native": "Lokal, Kneipe, Beiz"
+          },
+          {
+            "foreign": "spot",
+            "native": "entdecken"
+          },
+          {
+            "foreign": "straight",
+            "native": "gerade(aus)"
+          },
+          {
+            "foreign": "tourist",
+            "native": "Tourist/-in"
+          },
+          {
+            "foreign": "youth hostel",
+            "native": "Jugendherberge"
+          }
+        ]
+      },
+      {
+        "name": "05 Edinburgh stories",
+        "expressions": [
+          {
+            "foreign": "atmosphere",
+            "native": "Atmosphäre"
+          },
+          {
+            "foreign": "be lucky / in luck",
+            "native": "Glück haben"
+          },
+          {
+            "foreign": "boat",
+            "native": "Boot, Schiff"
+          },
+          {
+            "foreign": "breakfast hours (pl)",
+            "native": "Frühstückszeiten, Frühstück (in einem Hotel)"
+          },
+          {
+            "foreign": "bye",
+            "native": "tschüss"
+          },
+          {
+            "foreign": "cheap",
+            "native": "billig"
+          },
+          {
+            "foreign": "check-in form",
+            "native": "Check-in-Formular"
+          },
+          {
+            "foreign": "connection",
+            "native": "hierː Verbindung"
+          },
+          {
+            "foreign": "email",
+            "native": "E-Mail"
+          },
+          {
+            "foreign": "first name",
+            "native": "Vorname"
+          },
+          {
+            "foreign": "friendly",
+            "native": "freundlich"
+          },
+          {
+            "foreign": "get around",
+            "native": "herumkommen, vorankommen"
+          },
+          {
+            "foreign": "guest",
+            "native": "Gast"
+          },
+          {
+            "foreign": "handbag",
+            "native": "Handtasche"
+          },
+          {
+            "foreign": "hang around",
+            "native": "hier: rumhängen"
+          },
+          {
+            "foreign": "have a wonderful time",
+            "native": "eine wundervolle Zeit verbringen"
+          },
+          {
+            "foreign": "in cash",
+            "native": "bar, cash"
+          },
+          {
+            "foreign": "island",
+            "native": "Insel"
+          },
+          {
+            "foreign": "lady",
+            "native": "Frau, Dame"
+          },
+          {
+            "foreign": "Madam",
+            "native": "gnädige Frau, Dame"
+          },
+          {
+            "foreign": "make a difference",
+            "native": "einen Unterschied machen"
+          },
+          {
+            "foreign": "master",
+            "native": "Herr, Meister"
+          },
+          {
+            "foreign": "meal",
+            "native": "Mahlzeit, Essen"
+          },
+          {
+            "foreign": "nearby",
+            "native": "in der Nähe"
+          },
+          {
+            "foreign": "passenger",
+            "native": "Passagier"
+          },
+          {
+            "foreign": "per night",
+            "native": "pro Nacht"
+          },
+          {
+            "foreign": "perfect fit",
+            "native": "perfekter Sitz (bei Kleidern), optimale Passform"
+          },
+          {
+            "foreign": "police officer",
+            "native": "Polizeibeamte/-r"
+          },
+          {
+            "foreign": "railway station",
+            "native": "Bahnhof"
+          },
+          {
+            "foreign": "receptionist",
+            "native": "Empfangschef, Empfangsdame"
+          },
+          {
+            "foreign": "return (ticket)",
+            "native": "Hin- und Rückfahrkarte, Retourbillet"
+          },
+          {
+            "foreign": "rush hour",
+            "native": "Hauptverkehrszeit, Stosszeit"
+          },
+          {
+            "foreign": "safe",
+            "native": "sicher, ungefährlich"
+          },
+          {
+            "foreign": "single (ticket)",
+            "native": "Einzelfahrkarte"
+          },
+          {
+            "foreign": "steal",
+            "native": "stehlen"
+          },
+          {
+            "foreign": "surname",
+            "native": "Nachname, Familienname"
+          },
+          {
+            "foreign": "suspect",
+            "native": "Verdächtige/-r"
+          },
+          {
+            "foreign": "thin",
+            "native": "dünn"
+          },
+          {
+            "foreign": "tradition",
+            "native": "Tradition, Brauch"
+          },
+          {
+            "foreign": "traditional",
+            "native": "traditionell"
+          }
+        ]
+      },
+      {
+        "name": "06 Focus",
+        "expressions": [
+          {
+            "foreign": "English-speaking",
+            "native": "englischsprachig"
+          },
+          {
+            "foreign": "relax",
+            "native": "sich entspannen"
+          },
+          {
+            "foreign": "square",
+            "native": "Feld (auf einem Spielbrett)"
+          },
+          {
+            "foreign": "take action",
+            "native": "handeln, etw. unternehmen, tun"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 2",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "aggressive",
+            "native": "aggressiv, energisch"
+          },
+          {
+            "foreign": "animal",
+            "native": "Tier"
+          },
+          {
+            "foreign": "chemical",
+            "native": "chemisch"
+          },
+          {
+            "foreign": "chimpanzee",
+            "native": "Schimpanse"
+          },
+          {
+            "foreign": "communicate",
+            "native": "kommunizieren"
+          },
+          {
+            "foreign": "dance",
+            "native": "Tanz"
+          },
+          {
+            "foreign": "pheromone",
+            "native": "Pheromon"
+          },
+          {
+            "foreign": "signal",
+            "native": "Zeichen, Signal"
+          },
+          {
+            "foreign": "symbol",
+            "native": "Symbol"
+          },
+          {
+            "foreign": "whale",
+            "native": "Wal"
+          }
+        ]
+      },
+      {
+        "name": "02 Particular pets",
+        "expressions": [
+          {
+            "foreign": "afraid",
+            "native": "Angst haben, sich fürchten"
+          },
+          {
+            "foreign": "angry",
+            "native": "zornig"
+          },
+          {
+            "foreign": "animal communication",
+            "native": "Tierkommunikation"
+          },
+          {
+            "foreign": "cat",
+            "native": "Katze"
+          },
+          {
+            "foreign": "ear",
+            "native": "Ohr"
+          },
+          {
+            "foreign": "excited",
+            "native": "aufgeregt, begeistert"
+          },
+          {
+            "foreign": "jump",
+            "native": "springen"
+          },
+          {
+            "foreign": "lift",
+            "native": "heben"
+          },
+          {
+            "foreign": "mouth",
+            "native": "Mund, Maul"
+          },
+          {
+            "foreign": "relaxed",
+            "native": "entspannt, locker"
+          },
+          {
+            "foreign": "slightly",
+            "native": "etwas, ein wenig"
+          }
+        ]
+      },
+      {
+        "name": "03 Artful animals",
+        "expressions": [
+          {
+            "foreign": "bee",
+            "native": "Biene"
+          },
+          {
+            "foreign": "find out",
+            "native": "herausfinden"
+          },
+          {
+            "foreign": "scientist",
+            "native": "Wissenschaftler/-in"
+          },
+          {
+            "foreign": "slowly",
+            "native": "langsam"
+          },
+          {
+            "foreign": "smell",
+            "native": "riechen"
+          }
+        ]
+      },
+      {
+        "name": "04 Busy bees",
+        "expressions": [
+          {
+            "foreign": "beat",
+            "native": "schlagen"
+          },
+          {
+            "foreign": "blocked",
+            "native": "verstopft, blockiert"
+          },
+          {
+            "foreign": "busy",
+            "native": "beschäftigt, belebt"
+          },
+          {
+            "foreign": "flower",
+            "native": "Blume"
+          },
+          {
+            "foreign": "opposite",
+            "native": "gegenüberliegend, entgegengesetzt"
+          },
+          {
+            "foreign": "sun",
+            "native": "Sonne"
+          }
+        ]
+      },
+      {
+        "name": "05 Chattering chimps",
+        "expressions": [
+          {
+            "foreign": "apart from",
+            "native": "abgesehen von"
+          },
+          {
+            "foreign": "enemy",
+            "native": "Feind/-in"
+          },
+          {
+            "foreign": "normally",
+            "native": "normalerweise"
+          },
+          {
+            "foreign": "preserve",
+            "native": "bewahren, erhalten"
+          },
+          {
+            "foreign": "reaction",
+            "native": "Reaktion"
+          },
+          {
+            "foreign": "remove",
+            "native": "entfernen"
+          },
+          {
+            "foreign": "skin",
+            "native": "Haut"
+          }
+        ]
+      },
+      {
+        "name": "06 Ambitious apes",
+        "expressions": [
+          {
+            "foreign": "board game",
+            "native": "Brettspiel"
+          },
+          {
+            "foreign": "decade",
+            "native": "Jahrzehnt"
+          },
+          {
+            "foreign": "emotion",
+            "native": "Gefühl, Emotion"
+          },
+          {
+            "foreign": "equally",
+            "native": "gleichermassen, ebenso"
+          },
+          {
+            "foreign": "forest",
+            "native": "Wald"
+          },
+          {
+            "foreign": "go for a walk",
+            "native": "einen Spaziergang machen"
+          },
+          {
+            "foreign": "quick",
+            "native": "schnell"
+          },
+          {
+            "foreign": "quiet",
+            "native": "ruhig"
+          },
+          {
+            "foreign": "sign language",
+            "native": "Zeichensprache"
+          },
+          {
+            "foreign": "suitable",
+            "native": "geeignet, passend"
+          },
+          {
+            "foreign": "the way children do",
+            "native": "so wie es Kinder machen"
+          },
+          {
+            "foreign": "well-known",
+            "native": "bekannt, berühmt"
+          }
+        ]
+      },
+      {
+        "name": "07 Focus",
+        "expressions": [
+          {
+            "foreign": "bright",
+            "native": "hell, grell, leuchtend"
+          },
+          {
+            "foreign": "danger",
+            "native": "Gefahr"
+          },
+          {
+            "foreign": "facial expression",
+            "native": "Gesichtsausdruck"
+          },
+          {
+            "foreign": "front leg",
+            "native": "Vorderbein"
+          },
+          {
+            "foreign": "horse",
+            "native": "Pferd"
+          },
+          {
+            "foreign": "in an interesting way",
+            "native": "auf eine interessante Art"
+          },
+          {
+            "foreign": "kick",
+            "native": "treten, ausschlagen"
+          },
+          {
+            "foreign": "look after",
+            "native": "sich kümmern um"
+          },
+          {
+            "foreign": "noise",
+            "native": "Geräusch"
+          },
+          {
+            "foreign": "warn",
+            "native": "warnen"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 3",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "canteen",
+            "native": "Kantine, Mensa"
+          },
+          {
+            "foreign": "diet",
+            "native": "Ernährung, Nahrung, Diät"
+          },
+          {
+            "foreign": "exercise",
+            "native": "Bewegung, sportliche Betätigung"
+          },
+          {
+            "foreign": "fruit",
+            "native": "Frucht, Früchte"
+          },
+          {
+            "foreign": "health",
+            "native": "Gesundheit"
+          },
+          {
+            "foreign": "ingredient",
+            "native": "Zutat, Bestandteil"
+          },
+          {
+            "foreign": "junk food",
+            "native": "ungesundes Essen"
+          },
+          {
+            "foreign": "nutrition",
+            "native": "Ernährung"
+          },
+          {
+            "foreign": "recipe",
+            "native": "Rezept"
+          },
+          {
+            "foreign": "vegetable",
+            "native": "Gemüse"
+          }
+        ]
+      },
+      {
+        "name": "02 Fitness and well-being",
+        "expressions": [
+          {
+            "foreign": "absolutely",
+            "native": "absolut, völlig"
+          },
+          {
+            "foreign": "active",
+            "native": "aktiv"
+          },
+          {
+            "foreign": "all day",
+            "native": "den ganzen Tag"
+          },
+          {
+            "foreign": "anybody",
+            "native": "irgendjemand"
+          },
+          {
+            "foreign": "ask for advice",
+            "native": "um Rat fragen"
+          },
+          {
+            "foreign": "be happy with",
+            "native": "zufrieden sein mit"
+          },
+          {
+            "foreign": "brain",
+            "native": "Gehirn"
+          },
+          {
+            "foreign": "by bike",
+            "native": "mit dem Fahrrad"
+          },
+          {
+            "foreign": "chips (pl)",
+            "native": "Pommes frites"
+          },
+          {
+            "foreign": "combine",
+            "native": "verbinden"
+          },
+          {
+            "foreign": "comfortable",
+            "native": "komfortabel, bequem"
+          },
+          {
+            "foreign": "cycle",
+            "native": "Velo fahren"
+          },
+          {
+            "foreign": "deal with",
+            "native": "sich befassen mit"
+          },
+          {
+            "foreign": "disagree",
+            "native": "nicht einverstanden sein, anderer Meinung sein"
+          },
+          {
+            "foreign": "fast food",
+            "native": "Fastfood"
+          },
+          {
+            "foreign": "football",
+            "native": "Fussball"
+          },
+          {
+            "foreign": "get angry",
+            "native": "wütend werden"
+          },
+          {
+            "foreign": "healthy",
+            "native": "gesund"
+          },
+          {
+            "foreign": "importance",
+            "native": "Bedeutung"
+          },
+          {
+            "foreign": "index finger",
+            "native": "Zeigefinger"
+          },
+          {
+            "foreign": "on foot",
+            "native": "zu Fuss"
+          },
+          {
+            "foreign": "pool",
+            "native": "Schwimmbad, Swimmingpool"
+          },
+          {
+            "foreign": "rank",
+            "native": "anordnen"
+          },
+          {
+            "foreign": "self-confidence",
+            "native": "Selbstvertrauen"
+          },
+          {
+            "foreign": "swim",
+            "native": "schwimmen"
+          },
+          {
+            "foreign": "take 10 minutes",
+            "native": "10 Minuten dauern, brauchen"
+          },
+          {
+            "foreign": "That's rubbish!",
+            "native": "Das ist Blödsinn!"
+          },
+          {
+            "foreign": "totally",
+            "native": "völlig"
+          },
+          {
+            "foreign": "twice",
+            "native": "zweimal"
+          },
+          {
+            "foreign": "wait for",
+            "native": "warten auf"
+          },
+          {
+            "foreign": "well-being",
+            "native": "Wohl"
+          }
+        ]
+      },
+      {
+        "name": "03 A healthy lifestyle",
+        "expressions": [
+          {
+            "foreign": "a day",
+            "native": "pro Tag"
+          },
+          {
+            "foreign": "advice",
+            "native": "Rat"
+          },
+          {
+            "foreign": "complicated",
+            "native": "kompliziert"
+          },
+          {
+            "foreign": "fresh",
+            "native": "frisch"
+          },
+          {
+            "foreign": "plenty of",
+            "native": "viel"
+          },
+          {
+            "foreign": "smoke",
+            "native": "rauchen"
+          },
+          {
+            "foreign": "tip",
+            "native": "Tipp"
+          },
+          {
+            "foreign": "truth",
+            "native": "Wahrheit"
+          }
+        ]
+      },
+      {
+        "name": "04 Junk food",
+        "expressions": [
+          {
+            "foreign": "can't stand",
+            "native": "nicht ertragen können"
+          },
+          {
+            "foreign": "everywhere",
+            "native": "überall"
+          },
+          {
+            "foreign": "extremely",
+            "native": "äusserst"
+          },
+          {
+            "foreign": "familiar",
+            "native": "vertraut"
+          },
+          {
+            "foreign": "fat",
+            "native": "Fett"
+          },
+          {
+            "foreign": "hate",
+            "native": "hassen"
+          },
+          {
+            "foreign": "hide",
+            "native": "verstecken"
+          },
+          {
+            "foreign": "taste",
+            "native": "Geschmack"
+          },
+          {
+            "foreign": "unfortunately",
+            "native": "unglücklicherweise"
+          }
+        ]
+      },
+      {
+        "name": "05 Healthy eating at school",
+        "expressions": [
+          {
+            "foreign": "broccoli",
+            "native": "Broccoli"
+          },
+          {
+            "foreign": "concentrate",
+            "native": "sich konzentrieren"
+          },
+          {
+            "foreign": "concentration",
+            "native": "Konzentration"
+          },
+          {
+            "foreign": "cook",
+            "native": "Koch"
+          },
+          {
+            "foreign": "crisps (pl)",
+            "native": "Pommes-Chips"
+          },
+          {
+            "foreign": "lettuce",
+            "native": "Blattsalat"
+          },
+          {
+            "foreign": "menu",
+            "native": "Speisekarte, Menü"
+          },
+          {
+            "foreign": "peach",
+            "native": "Pfirsich"
+          },
+          {
+            "foreign": "potato",
+            "native": "Kartoffel"
+          },
+          {
+            "foreign": "quality meat",
+            "native": "hochwertiges Fleisch"
+          },
+          {
+            "foreign": "strawberry",
+            "native": "Erdbeere"
+          }
+        ]
+      },
+      {
+        "name": "06 What do you eat?",
+        "expressions": [
+          {
+            "foreign": "anywhere",
+            "native": "irgendwo"
+          },
+          {
+            "foreign": "combination",
+            "native": "Kombination"
+          },
+          {
+            "foreign": "cream",
+            "native": "Rahm"
+          },
+          {
+            "foreign": "dish",
+            "native": "Schale, Schüssel"
+          },
+          {
+            "foreign": "except (for)",
+            "native": "ausser, bis auf"
+          },
+          {
+            "foreign": "habit",
+            "native": "Gewohnheit"
+          },
+          {
+            "foreign": "herbs (pl)",
+            "native": "Kräuter"
+          },
+          {
+            "foreign": "long-distance race",
+            "native": "Langstreckenrennen"
+          },
+          {
+            "foreign": "meanwhile",
+            "native": "unterdessen"
+          },
+          {
+            "foreign": "mix",
+            "native": "mischen"
+          },
+          {
+            "foreign": "onion",
+            "native": "Zwiebel"
+          },
+          {
+            "foreign": "pepper",
+            "native": "Pfeffer"
+          },
+          {
+            "foreign": "rich",
+            "native": "reich"
+          },
+          {
+            "foreign": "salt",
+            "native": "Salz"
+          }
+        ]
+      },
+      {
+        "name": "07 Heat the oven",
+        "expressions": [
+          {
+            "foreign": "flour",
+            "native": "Mehl"
+          },
+          {
+            "foreign": "lemon",
+            "native": "Zitrone"
+          },
+          {
+            "foreign": "Swiss German",
+            "native": "Schweizerdeutsch"
+          },
+          {
+            "foreign": "translation",
+            "native": "Übersetzung"
+          },
+          {
+            "foreign": "vanilla",
+            "native": "Vanille"
+          }
+        ]
+      },
+      {
+        "name": "08 Only the best ingredients",
+        "expressions": [
+          {
+            "foreign": "a drop of milk",
+            "native": "ein wenig Milch"
+          },
+          {
+            "foreign": "a week",
+            "native": "pro Woche"
+          },
+          {
+            "foreign": "countable",
+            "native": "zählbar"
+          },
+          {
+            "foreign": "for breakfast",
+            "native": "zum Frühstück"
+          },
+          {
+            "foreign": "for dinner",
+            "native": "zum Abendessen"
+          },
+          {
+            "foreign": "for lunch",
+            "native": "zum Mittagessen"
+          },
+          {
+            "foreign": "how many",
+            "native": "wie viele"
+          },
+          {
+            "foreign": "how much",
+            "native": "wie viel"
+          },
+          {
+            "foreign": "litre",
+            "native": "Liter"
+          },
+          {
+            "foreign": "uncountable",
+            "native": "unzählbar"
+          }
+        ]
+      },
+      {
+        "name": "09 Sport for everyone!",
+        "expressions": [
+          {
+            "foreign": "instruction",
+            "native": "Anweisung"
+          },
+          {
+            "foreign": "pleased",
+            "native": "froh, erfreut, zufrieden"
+          },
+          {
+            "foreign": "shocking",
+            "native": "schockierend"
+          },
+          {
+            "foreign": "stretch",
+            "native": "strecken"
+          },
+          {
+            "foreign": "terrible",
+            "native": "schrecklich"
+          },
+          {
+            "foreign": "toe",
+            "native": "Zeh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 4",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "Antarctic Circle",
+            "native": "südlicher Polarkreis"
+          },
+          {
+            "foreign": "Antarctica",
+            "native": "Antarktis"
+          },
+          {
+            "foreign": "captain",
+            "native": "Kapitän/-in"
+          },
+          {
+            "foreign": "climate",
+            "native": "Klima"
+          },
+          {
+            "foreign": "continent",
+            "native": "Kontinent"
+          },
+          {
+            "foreign": "exotic",
+            "native": "exotisch, fremdländisch"
+          },
+          {
+            "foreign": "expedition",
+            "native": "Expedition, Forschungsreise"
+          },
+          {
+            "foreign": "native",
+            "native": "Einheimische/-r"
+          },
+          {
+            "foreign": "ozone layer",
+            "native": "Ozonschicht"
+          },
+          {
+            "foreign": "sailor",
+            "native": "Matrose,  Matrosin, Seeman"
+          }
+        ]
+      },
+      {
+        "name": "02 Exploring the South Seas",
+        "expressions": [
+          {
+            "foreign": "amazing",
+            "native": "erstaunlich, toll"
+          },
+          {
+            "foreign": "artist",
+            "native": "Künstler/-in"
+          },
+          {
+            "foreign": "background",
+            "native": "Hintergrund"
+          },
+          {
+            "foreign": "bird",
+            "native": "Vogel"
+          },
+          {
+            "foreign": "carefully",
+            "native": "sorgfältig, aufmerksam"
+          },
+          {
+            "foreign": "consonant",
+            "native": "Konsonant"
+          },
+          {
+            "foreign": "distance",
+            "native": "Entfernung, Distanz"
+          },
+          {
+            "foreign": "empty",
+            "native": "leer"
+          },
+          {
+            "foreign": "explore",
+            "native": "erforschen, untersuchen"
+          },
+          {
+            "foreign": "explorer",
+            "native": "Forscher/-in, Entdecker/-in"
+          },
+          {
+            "foreign": "farm worker",
+            "native": "Landarbeiter/-in"
+          },
+          {
+            "foreign": "fishing net",
+            "native": "Fischernetz"
+          },
+          {
+            "foreign": "funny",
+            "native": "komisch, merkwürdig"
+          },
+          {
+            "foreign": "glass",
+            "native": "Glas"
+          },
+          {
+            "foreign": "He is a native Swiss.",
+            "native": "Er stammt aus der Schweiz."
+          },
+          {
+            "foreign": "map maker",
+            "native": "Kartenzeichner/-in"
+          },
+          {
+            "foreign": "mathematics",
+            "native": "Mathematik"
+          },
+          {
+            "foreign": "pronounce",
+            "native": "aussprechen"
+          },
+          {
+            "foreign": "pronunciation",
+            "native": "Aussprache"
+          },
+          {
+            "foreign": "route",
+            "native": "Route, Strecke"
+          },
+          {
+            "foreign": "sea captain",
+            "native": "(Schiffs-)Kapitän/-in"
+          },
+          {
+            "foreign": "She is a native of Austria.",
+            "native": "Sie stammt aus Österreich."
+          },
+          {
+            "foreign": "ship",
+            "native": "Schiff"
+          },
+          {
+            "foreign": "shout",
+            "native": "schreien, rufen"
+          },
+          {
+            "foreign": "stressed",
+            "native": "gestresst"
+          },
+          {
+            "foreign": "talented",
+            "native": "talentiert, begabt"
+          },
+          {
+            "foreign": "the South Seas (pl)",
+            "native": "Südsee"
+          },
+          {
+            "foreign": "tool",
+            "native": "Werkzeug"
+          },
+          {
+            "foreign": "translate",
+            "native": "übersetzen"
+          },
+          {
+            "foreign": "vowel",
+            "native": "Vokal"
+          },
+          {
+            "foreign": "wave",
+            "native": "winken"
+          },
+          {
+            "foreign": "We are native speakers of Italian.",
+            "native": "Wir sind italienische Muttersprachler."
+          },
+          {
+            "foreign": "weapon",
+            "native": "Waffe"
+          },
+          {
+            "foreign": "writer",
+            "native": "Schriftsteller/-in, Autor/-in"
+          }
+        ]
+      },
+      {
+        "name": "03 Tamsin Gray - modern-day explorer",
+        "expressions": [
+          {
+            "foreign": "adventure",
+            "native": "Abenteuer, Erlebnis"
+          },
+          {
+            "foreign": "be part of",
+            "native": "Teil sein von, gehören zu"
+          },
+          {
+            "foreign": "camera",
+            "native": "Kamera, Fotoapparat"
+          },
+          {
+            "foreign": "careful",
+            "native": "vorsichtig, sorgfältig"
+          },
+          {
+            "foreign": "climate change",
+            "native": "Klimaveränderung"
+          },
+          {
+            "foreign": "differ",
+            "native": "sich unterscheiden"
+          },
+          {
+            "foreign": "freeze",
+            "native": "hierː gefrieren"
+          },
+          {
+            "foreign": "get stuck",
+            "native": "stecken bleiben"
+          },
+          {
+            "foreign": "global",
+            "native": "global, weltweit"
+          },
+          {
+            "foreign": "hole",
+            "native": "Loch"
+          },
+          {
+            "foreign": "ice",
+            "native": "Eis"
+          },
+          {
+            "foreign": "in the middle of nowhere",
+            "native": "am Ende der Welt"
+          },
+          {
+            "foreign": "launch",
+            "native": "hier: steigen lassen"
+          },
+          {
+            "foreign": "map",
+            "native": "(Land-)Karte"
+          },
+          {
+            "foreign": "observe",
+            "native": "beobachten"
+          },
+          {
+            "foreign": "proud",
+            "native": "stolz"
+          },
+          {
+            "foreign": "research station",
+            "native": "Forschungsstation"
+          },
+          {
+            "foreign": "sample",
+            "native": "Probe, Muster"
+          },
+          {
+            "foreign": "since 8 o'clock",
+            "native": "seit 8 Uhr"
+          },
+          {
+            "foreign": "South Pole",
+            "native": "Südpol"
+          },
+          {
+            "foreign": "spend holidays",
+            "native": "Ferien verbringen"
+          },
+          {
+            "foreign": "trend",
+            "native": "Trend"
+          },
+          {
+            "foreign": "weather forecasting",
+            "native": "Erstellung von Wetterprognosen"
+          },
+          {
+            "foreign": "wind",
+            "native": "Wind"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 5",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "blizzard",
+            "native": "Schneesturm, Blizzard"
+          },
+          {
+            "foreign": "blow",
+            "native": "hierː blasen"
+          },
+          {
+            "foreign": "calm",
+            "native": "ruhig"
+          },
+          {
+            "foreign": "cloud",
+            "native": "Wolke"
+          },
+          {
+            "foreign": "hurricane",
+            "native": "Hurrikan"
+          },
+          {
+            "foreign": "rain",
+            "native": "Regen"
+          },
+          {
+            "foreign": "snow",
+            "native": "Schnee"
+          },
+          {
+            "foreign": "storm",
+            "native": "Sturm"
+          },
+          {
+            "foreign": "umbrella",
+            "native": "Regenschirm"
+          },
+          {
+            "foreign": "weather",
+            "native": "Wetter"
+          }
+        ]
+      },
+      {
+        "name": "02 Fair weather",
+        "expressions": [
+          {
+            "foreign": "a bit",
+            "native": "ein bisschen"
+          },
+          {
+            "foreign": "actually",
+            "native": "eigentlich"
+          },
+          {
+            "foreign": "cloudy",
+            "native": "bewölkt"
+          },
+          {
+            "foreign": "cool",
+            "native": "kühl"
+          },
+          {
+            "foreign": "dry",
+            "native": "trocken"
+          },
+          {
+            "foreign": "fair",
+            "native": "hierː schön"
+          },
+          {
+            "foreign": "helpful",
+            "native": "hilfreich"
+          },
+          {
+            "foreign": "I don't mind",
+            "native": "es macht mir nichts aus"
+          },
+          {
+            "foreign": "icy",
+            "native": "hierː eisig"
+          },
+          {
+            "foreign": "kind of",
+            "native": "irgendwie, ziemlich"
+          },
+          {
+            "foreign": "lucky",
+            "native": "glücklich, Glück habend"
+          },
+          {
+            "foreign": "make sure",
+            "native": "sich vergewissern"
+          },
+          {
+            "foreign": "mild",
+            "native": "mild"
+          },
+          {
+            "foreign": "of course",
+            "native": "natürlich, selbstverständlich"
+          },
+          {
+            "foreign": "radio",
+            "native": "Radio"
+          },
+          {
+            "foreign": "rainy",
+            "native": "regnerisch"
+          },
+          {
+            "foreign": "stormy",
+            "native": "stürmisch"
+          },
+          {
+            "foreign": "sunny",
+            "native": "sonnig"
+          },
+          {
+            "foreign": "warm",
+            "native": "warm"
+          },
+          {
+            "foreign": "wet",
+            "native": "nass"
+          },
+          {
+            "foreign": "windy",
+            "native": "windig"
+          },
+          {
+            "foreign": "winter",
+            "native": "Winter"
+          }
+        ]
+      },
+      {
+        "name": "03 Windy weather",
+        "expressions": [
+          {
+            "foreign": "air pressure",
+            "native": "Luftdruck"
+          },
+          {
+            "foreign": "arrange",
+            "native": "arrangieren"
+          },
+          {
+            "foreign": "earth",
+            "native": "Erde"
+          },
+          {
+            "foreign": "force",
+            "native": "Kraft, Stärke, Wucht"
+          },
+          {
+            "foreign": "heat",
+            "native": "erhitzen, erwärmen"
+          },
+          {
+            "foreign": "originally",
+            "native": "ursprünglich"
+          },
+          {
+            "foreign": "scale",
+            "native": "hierː Skala"
+          },
+          {
+            "foreign": "speed",
+            "native": "Geschwindigkeit, Tempo"
+          }
+        ]
+      },
+      {
+        "name": "04 Blizzards and hurricanes",
+        "expressions": [
+          {
+            "foreign": "based on evidence",
+            "native": "auf Beweise gestützt, aufgrund von Hinweisen"
+          },
+          {
+            "foreign": "camp",
+            "native": "zelten, campieren"
+          },
+          {
+            "foreign": "category",
+            "native": "Kategorie"
+          },
+          {
+            "foreign": "cause damage",
+            "native": "Schaden verursachen/anrichten"
+          },
+          {
+            "foreign": "coast",
+            "native": "Küste"
+          },
+          {
+            "foreign": "cry",
+            "native": "weinen"
+          },
+          {
+            "foreign": "dangerous",
+            "native": "gefährlich"
+          },
+          {
+            "foreign": "declare",
+            "native": "hierː erklären für"
+          },
+          {
+            "foreign": "definition",
+            "native": "Definition"
+          },
+          {
+            "foreign": "extreme",
+            "native": "extrem, äusserste(r, s)"
+          },
+          {
+            "foreign": "first-aid",
+            "native": "Erste-Hilfe-"
+          },
+          {
+            "foreign": "hat",
+            "native": "Hut, Mütze"
+          },
+          {
+            "foreign": "heavy snowfall",
+            "native": "starker Schneefall"
+          },
+          {
+            "foreign": "I was born on",
+            "native": "ich wurde geboren am"
+          },
+          {
+            "foreign": "low visibility",
+            "native": "schlechte Sicht"
+          },
+          {
+            "foreign": "plane",
+            "native": "Flugzeug"
+          },
+          {
+            "foreign": "powerful",
+            "native": "mächtig, kräftig"
+          },
+          {
+            "foreign": "predict / make a prediction",
+            "native": "vorhersagen"
+          },
+          {
+            "foreign": "shake up",
+            "native": "(drastisch) verändern, aufwühlen"
+          },
+          {
+            "foreign": "shake up",
+            "native": "(drastisch) verändern, aufwühlen"
+          },
+          {
+            "foreign": "sky",
+            "native": "Himmel"
+          },
+          {
+            "foreign": "take off",
+            "native": "hierː abheben, starten"
+          },
+          {
+            "foreign": "take pictures",
+            "native": "Fotos machen, fotografieren"
+          },
+          {
+            "foreign": "tonight",
+            "native": "heute Abend"
+          },
+          {
+            "foreign": "valuable",
+            "native": "wertvoll"
+          },
+          {
+            "foreign": "weak",
+            "native": "schwach"
+          },
+          {
+            "foreign": "wood",
+            "native": "Holz"
+          }
+        ]
+      },
+      {
+        "name": "05 Weather idioms",
+        "expressions": [
+          {
+            "foreign": "at a later date",
+            "native": "zu einem späteren Zeitpunkt, später einmal"
+          },
+          {
+            "foreign": "be out of touch with",
+            "native": "den Sinn für … verloren haben"
+          },
+          {
+            "foreign": "boss",
+            "native": "Chef/-in"
+          },
+          {
+            "foreign": "colleague",
+            "native": "Kollege/Kollegin"
+          },
+          {
+            "foreign": "go on about",
+            "native": "dauernd reden über"
+          },
+          {
+            "foreign": "ill",
+            "native": "krank"
+          },
+          {
+            "foreign": "in a fixed order",
+            "native": "in einer festen Reihenfolge"
+          },
+          {
+            "foreign": "joke",
+            "native": "Witz"
+          },
+          {
+            "foreign": "reality",
+            "native": "Realität, Wirklichkeit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 6",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "environment",
+            "native": "Umgebung, Umwelt"
+          },
+          {
+            "foreign": "forum",
+            "native": "Forum"
+          },
+          {
+            "foreign": "fragment",
+            "native": "Stück, Teil"
+          },
+          {
+            "foreign": "garbage patch",
+            "native": "Müllfleck (Ansammlung von Plastik im Pazifik)"
+          },
+          {
+            "foreign": "online",
+            "native": "online, Online-"
+          },
+          {
+            "foreign": "Pacific Ocean",
+            "native": "pazifischer Ozean, Pazifik"
+          },
+          {
+            "foreign": "plastic",
+            "native": "Plastik"
+          },
+          {
+            "foreign": "quiz",
+            "native": "Quiz, Ratespiel"
+          },
+          {
+            "foreign": "surface",
+            "native": "Oberfläche"
+          },
+          {
+            "foreign": "waste",
+            "native": "Abfall"
+          }
+        ]
+      },
+      {
+        "name": "02 The Great Pacific Garbage Patch",
+        "expressions": [
+          {
+            "foreign": "as … as",
+            "native": "so … wie"
+          },
+          {
+            "foreign": "collect",
+            "native": "sammeln"
+          },
+          {
+            "foreign": "collection",
+            "native": "Sammlung"
+          },
+          {
+            "foreign": "context",
+            "native": "Kontext, Zusammenhang"
+          },
+          {
+            "foreign": "deep blue",
+            "native": "Blaues Meer"
+          },
+          {
+            "foreign": "definitely",
+            "native": "eindeutig, definitiv"
+          },
+          {
+            "foreign": "disappear",
+            "native": "verschwinden"
+          },
+          {
+            "foreign": "end up",
+            "native": "gelangen, landen"
+          },
+          {
+            "foreign": "impossible",
+            "native": "unmöglich"
+          },
+          {
+            "foreign": "north",
+            "native": "nördlich, Nord-"
+          },
+          {
+            "foreign": "overall",
+            "native": "insgesamt, im Grossen und Ganzen"
+          },
+          {
+            "foreign": "PET bottle",
+            "native": "PET-Flasche"
+          },
+          {
+            "foreign": "pick up",
+            "native": "aufheben"
+          },
+          {
+            "foreign": "piece",
+            "native": "Stück"
+          },
+          {
+            "foreign": "river",
+            "native": "Fluss"
+          },
+          {
+            "foreign": "somewhere",
+            "native": "irgendwo"
+          },
+          {
+            "foreign": "throw away",
+            "native": "wegwerfen"
+          },
+          {
+            "foreign": "tiny",
+            "native": "winzig"
+          },
+          {
+            "foreign": "transport",
+            "native": "transportieren"
+          }
+        ]
+      },
+      {
+        "name": "03 Fascinating creatures: a quiz",
+        "expressions": [
+          {
+            "foreign": "appearance",
+            "native": "Aussehen"
+          },
+          {
+            "foreign": "breathe",
+            "native": "atmen"
+          },
+          {
+            "foreign": "creature",
+            "native": "Kreatur, Geschöpf"
+          },
+          {
+            "foreign": "disc",
+            "native": "Scheibe"
+          },
+          {
+            "foreign": "fascinating",
+            "native": "faszinierend"
+          },
+          {
+            "foreign": "give birth",
+            "native": "gebären"
+          },
+          {
+            "foreign": "hardly",
+            "native": "kaum"
+          },
+          {
+            "foreign": "lay",
+            "native": "legen"
+          },
+          {
+            "foreign": "length",
+            "native": "Länge"
+          },
+          {
+            "foreign": "mostly",
+            "native": "hauptsächlich, grösstenteils"
+          },
+          {
+            "foreign": "size",
+            "native": "Grösse"
+          },
+          {
+            "foreign": "slow-moving",
+            "native": "sich langsam bewegend"
+          },
+          {
+            "foreign": "special fact",
+            "native": "besondere Tatsache"
+          },
+          {
+            "foreign": "spot",
+            "native": "Punkt, Stelle"
+          },
+          {
+            "foreign": "thick",
+            "native": "dick, zähflüssig"
+          },
+          {
+            "foreign": "victim",
+            "native": "Opfer"
+          },
+          {
+            "foreign": "weight",
+            "native": "Gewicht"
+          }
+        ]
+      },
+      {
+        "name": "04 The beauty of the ocean",
+        "expressions": [
+          {
+            "foreign": "beach",
+            "native": "Strand"
+          },
+          {
+            "foreign": "belong to",
+            "native": "gehören"
+          },
+          {
+            "foreign": "environmental",
+            "native": "Umwelt-"
+          },
+          {
+            "foreign": "feed",
+            "native": "füttern"
+          },
+          {
+            "foreign": "fish farm",
+            "native": "Fischzuchtanlage"
+          },
+          {
+            "foreign": "in order to",
+            "native": "um zu"
+          },
+          {
+            "foreign": "label",
+            "native": "Etikett, Aufkleber"
+          },
+          {
+            "foreign": "partly",
+            "native": "teilweise"
+          },
+          {
+            "foreign": "reply",
+            "native": "Antwort, Erwiderung"
+          },
+          {
+            "foreign": "so that",
+            "native": "damit, sodass"
+          },
+          {
+            "foreign": "survive",
+            "native": "überleben"
+          }
+        ]
+      },
+      {
+        "name": "05 Focus",
+        "expressions": [
+          {
+            "foreign": "get active",
+            "native": "aktiv werden"
+          },
+          {
+            "foreign": "protect",
+            "native": "schützen"
+          },
+          {
+            "foreign": "sad",
+            "native": "traurig"
+          },
+          {
+            "foreign": "social media channel",
+            "native": "Social-Media-Kanal"
+          },
+          {
+            "foreign": "switch off",
+            "native": "ausschalten"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 7",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "Asia",
+            "native": "Asien"
+          },
+          {
+            "foreign": "charity",
+            "native": "Wohltätigkeit, Wohltätigkeitsorganisation"
+          },
+          {
+            "foreign": "dialect",
+            "native": "Dialekt"
+          },
+          {
+            "foreign": "festival",
+            "native": "Festival"
+          },
+          {
+            "foreign": "immigrant",
+            "native": "Einwanderer/-in"
+          },
+          {
+            "foreign": "mother tongue",
+            "native": "Muttersprache"
+          },
+          {
+            "foreign": "neighbourhood",
+            "native": "Viertel, Quartier"
+          },
+          {
+            "foreign": "patch",
+            "native": "Flicken"
+          },
+          {
+            "foreign": "patchwork",
+            "native": "Patchwork, Patchwork-"
+          },
+          {
+            "foreign": "quilt",
+            "native": "Steppdecke, Quilt"
+          }
+        ]
+      },
+      {
+        "name": "02 A multicultural metropolis",
+        "expressions": [
+          {
+            "foreign": "Canada",
+            "native": "Kanada"
+          },
+          {
+            "foreign": "Canadian",
+            "native": "Kanadier/-in"
+          },
+          {
+            "foreign": "Chinese",
+            "native": "Chinesisch"
+          },
+          {
+            "foreign": "citizen",
+            "native": "Bürger/-in"
+          },
+          {
+            "foreign": "exciting",
+            "native": "aufregend, spannend"
+          },
+          {
+            "foreign": "farm",
+            "native": "Bauernhof"
+          },
+          {
+            "foreign": "France",
+            "native": "Frankreich"
+          },
+          {
+            "foreign": "frequently",
+            "native": "häufig"
+          },
+          {
+            "foreign": "Italian",
+            "native": "Italienisch"
+          },
+          {
+            "foreign": "Italy",
+            "native": "Italien"
+          },
+          {
+            "foreign": "lake",
+            "native": "See"
+          },
+          {
+            "foreign": "mistake",
+            "native": "Fehler, Irrtum"
+          },
+          {
+            "foreign": "North America",
+            "native": "Nordamerika"
+          },
+          {
+            "foreign": "percentage",
+            "native": "Prozentsatz"
+          },
+          {
+            "foreign": "perfectly",
+            "native": "fehlerlos, perfekt"
+          },
+          {
+            "foreign": "Polish",
+            "native": "Polnisch"
+          },
+          {
+            "foreign": "Russian",
+            "native": "Russisch"
+          },
+          {
+            "foreign": "Spain",
+            "native": "Spanien"
+          },
+          {
+            "foreign": "Spanish",
+            "native": "Spanisch"
+          },
+          {
+            "foreign": "speaker",
+            "native": "Sprecher/-in"
+          },
+          {
+            "foreign": "sunshine",
+            "native": "Sonnenschein"
+          },
+          {
+            "foreign": "traffic",
+            "native": "Verkehr"
+          },
+          {
+            "foreign": "unique",
+            "native": "einzigartig"
+          }
+        ]
+      },
+      {
+        "name": "03 Toronto and its neighbourhoods",
+        "expressions": [
+          {
+            "foreign": "Asian",
+            "native": "asiatisch"
+          },
+          {
+            "foreign": "bus stop",
+            "native": "Bushaltestelle"
+          },
+          {
+            "foreign": "Chinatown",
+            "native": "Chinatown, Chinesenviertel"
+          },
+          {
+            "foreign": "disadvantage",
+            "native": "Nachteil"
+          },
+          {
+            "foreign": "Native American",
+            "native": "Amerikanische Ureinwohner-"
+          },
+          {
+            "foreign": "swimming pool",
+            "native": "Schwimmbecken"
+          }
+        ]
+      },
+      {
+        "name": "04 Festivals and celebrations",
+        "expressions": [
+          {
+            "foreign": "advertise",
+            "native": "Werbung machen für, inserieren"
+          },
+          {
+            "foreign": "advertisement",
+            "native": "Werbung, Inserat"
+          },
+          {
+            "foreign": "celebrate",
+            "native": "feiern"
+          },
+          {
+            "foreign": "celebration",
+            "native": "Feier"
+          },
+          {
+            "foreign": "crowd",
+            "native": "Menschenmenge"
+          },
+          {
+            "foreign": "taxi",
+            "native": "Taxi"
+          },
+          {
+            "foreign": "toilet",
+            "native": "Toilette, WC"
+          },
+          {
+            "foreign": "visitor",
+            "native": "Besucher/-in"
+          }
+        ]
+      },
+      {
+        "name": "05 Diversity is our strength",
+        "expressions": [
+          {
+            "foreign": "beginner",
+            "native": "Anfänger/-in"
+          },
+          {
+            "foreign": "coach",
+            "native": "trainieren"
+          },
+          {
+            "foreign": "diversity",
+            "native": "Vielfalt"
+          },
+          {
+            "foreign": "identity",
+            "native": "Identität"
+          },
+          {
+            "foreign": "integrate",
+            "native": "sich integrieren"
+          },
+          {
+            "foreign": "intention",
+            "native": "Absicht, Vorhaben"
+          },
+          {
+            "foreign": "native country",
+            "native": "Heimatland"
+          },
+          {
+            "foreign": "origins (pl)",
+            "native": "Herkunft"
+          },
+          {
+            "foreign": "photo",
+            "native": "Foto"
+          },
+          {
+            "foreign": "strength",
+            "native": "Stärke"
+          }
+        ]
+      },
+      {
+        "name": "06 Focus",
+        "expressions": [
+          {
+            "foreign": "contribution",
+            "native": "hierː Beitrag"
+          },
+          {
+            "foreign": "divide",
+            "native": "teilen, unterteilen"
+          },
+          {
+            "foreign": "equal",
+            "native": "gleich"
+          }
+        ]
+      }
+    ]
+  }
+]

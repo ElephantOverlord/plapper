@@ -47,6 +47,10 @@ const library = [
     name: "Dis Donc! 9G",
     file: "dis_donc_9g.json",
   },
+  {
+    name: "Open World 1",
+    file: "open_world_1.json"
+  }
 ];
 
 function fetchBook(): void {
