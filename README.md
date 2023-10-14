@@ -35,7 +35,7 @@ docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.5-16-debian
 Pull the repository, copy `.env.prod.example` to `.env` and make the necessary adjustments. You can now run the stack:
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 Make sure Nginx is installed on your server and create the necessary reverse proxy:
