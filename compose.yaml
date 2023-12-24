@@ -11,7 +11,7 @@ services:
 
   soketi:
     container_name: 'plapper_soketi'
-    image: quay.io/soketi/soketi:1.4-16-distroless
+    image: quay.io/soketi/soketi:1.6-16-distroless
     ports:
       - '9110:6001'
     environment:
