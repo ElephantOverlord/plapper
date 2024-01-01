@@ -27,7 +27,7 @@ npm run dev
 All games rely on a running instance of the Soketi Websocket Server:
 
 ```bash
-docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.5-16-debian
+docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.6-16-debian
 ```
 
 ## Production Deployment
