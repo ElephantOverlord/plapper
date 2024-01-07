@@ -50,6 +50,14 @@ const library = [
   {
     name: "Open World 1",
     file: "open_world_1.json"
+  },
+  {
+    name: "Open World 2",
+    file: "open_world_2.json"
+  },
+  {
+    name: "Open World 3",
+    file: "open_world_3.json"
   }
 ];
 

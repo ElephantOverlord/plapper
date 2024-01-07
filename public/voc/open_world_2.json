@@ -1,0 +1,2129 @@
+[
+  {
+    "name": "Unit 8",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "aeroplane",
+            "native": "Flugzeug"
+          },
+          {
+            "foreign": "airport",
+            "native": "Flughafen"
+          },
+          {
+            "foreign": "announcement",
+            "native": "Mitteilung, Durchsage"
+          },
+          {
+            "foreign": "challenge",
+            "native": "Herausforderung"
+          },
+          {
+            "foreign": "flight",
+            "native": "Flug"
+          },
+          {
+            "foreign": "passenger",
+            "native": "Passagier"
+          },
+          {
+            "foreign": "pioneer",
+            "native": "Pionier/-in"
+          },
+          {
+            "foreign": "prediction",
+            "native": "Vorhersage, Voraussage, Prognose"
+          },
+          {
+            "foreign": "spontaneous",
+            "native": "spontan"
+          }
+        ]
+      },
+      {
+        "name": "02 Flight pioneers",
+        "expressions": [
+          {
+            "foreign": "aircraft",
+            "native": "Luftfahrzeug, Flugzeug"
+          },
+          {
+            "foreign": "airplane",
+            "native": "Flugzeug"
+          },
+          {
+            "foreign": "all-rounder",
+            "native": "vielseitiges Talent, Alleskönner/-in"
+          },
+          {
+            "foreign": "competition",
+            "native": "Wettbewerb, Wettkampf"
+          },
+          {
+            "foreign": "crash",
+            "native": "verunglücken, abstürzen"
+          },
+          {
+            "foreign": "engine",
+            "native": "Motor"
+          },
+          {
+            "foreign": "engineer",
+            "native": "Ingenieur/-in"
+          },
+          {
+            "foreign": "feather",
+            "native": "Feder"
+          },
+          {
+            "foreign": "get excited",
+            "native": "ganz aufgeregt werden, sich begeistern"
+          },
+          {
+            "foreign": "melt",
+            "native": "schmelzen"
+          },
+          {
+            "foreign": "passion",
+            "native": "Leidenschaft"
+          },
+          {
+            "foreign": "passionate",
+            "native": "leidenschaftlich"
+          },
+          {
+            "foreign": "pilot",
+            "native": "Pilot/-in"
+          },
+          {
+            "foreign": "so-called",
+            "native": "sogenannt"
+          },
+          {
+            "foreign": "soft",
+            "native": "weich"
+          },
+          {
+            "foreign": "successful",
+            "native": "erfolgreich"
+          },
+          {
+            "foreign": "wax",
+            "native": "Wachs"
+          }
+        ]
+      },
+      {
+        "name": "03 At the airport",
+        "expressions": [
+          {
+            "foreign": "airline",
+            "native": "Fluggesellschaft"
+          },
+          {
+            "foreign": "baggage",
+            "native": "Gepäck"
+          },
+          {
+            "foreign": "be late",
+            "native": "zu spät kommen, Verspätung haben"
+          },
+          {
+            "foreign": "boarding pass",
+            "native": "Bordkarte"
+          },
+          {
+            "foreign": "boarding time",
+            "native": "Einsteigezeit"
+          },
+          {
+            "foreign": "business class",
+            "native": "Businessclass"
+          },
+          {
+            "foreign": "cancel",
+            "native": "absagen"
+          },
+          {
+            "foreign": "check-in desk",
+            "native": "Check-in, Abflugschalter"
+          },
+          {
+            "foreign": "departure",
+            "native": "Abflug, Abfahrt"
+          },
+          {
+            "foreign": "during",
+            "native": "während"
+          },
+          {
+            "foreign": "economy class",
+            "native": "Touristenklasse"
+          },
+          {
+            "foreign": "gate",
+            "native": "hier: Abfluggate"
+          },
+          {
+            "foreign": "latest",
+            "native": "hierː neueste(r, s)"
+          },
+          {
+            "foreign": "miss",
+            "native": "hier: verpassen"
+          },
+          {
+            "foreign": "on behalf of",
+            "native": "im Namen von"
+          },
+          {
+            "foreign": "pleasant",
+            "native": "angenehm"
+          },
+          {
+            "foreign": "proceed",
+            "native": "hier: (weiter)gehen"
+          },
+          {
+            "foreign": "take-off",
+            "native": "Abflug, Abheben des Flugzeugs"
+          },
+          {
+            "foreign": "update",
+            "native": "Aktualisierung, neue Information"
+          }
+        ]
+      },
+      {
+        "name": "04 Focus",
+        "expressions": [
+          {
+            "foreign": "calculate",
+            "native": "(be)rechnen"
+          },
+          {
+            "foreign": "measure",
+            "native": "(ab)messen"
+          },
+          {
+            "foreign": "referee",
+            "native": "Schiedsrichter/-in"
+          },
+          {
+            "foreign": "result",
+            "native": "Resultat"
+          },
+          {
+            "foreign": "score",
+            "native": "Punktestand"
+          },
+          {
+            "foreign": "search engine",
+            "native": "Suchmaschine"
+          },
+          {
+            "foreign": "search term",
+            "native": "Suchbegriff"
+          },
+          {
+            "foreign": "throw",
+            "native": "werfen"
+          },
+          {
+            "foreign": "throw",
+            "native": "Wurf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 9",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "bagpipes (pl)",
+            "native": "Dudelsack"
+          },
+          {
+            "foreign": "brilliant",
+            "native": "hervorragend, fantastisch"
+          },
+          {
+            "foreign": "competition",
+            "native": "Wettbewerb, Wettkampf"
+          },
+          {
+            "foreign": "event",
+            "native": "Veranstaltung, Ereignis"
+          },
+          {
+            "foreign": "Highland Games",
+            "native": "Hochlandspiele"
+          },
+          {
+            "foreign": "invent",
+            "native": "erfinden"
+          },
+          {
+            "foreign": "prize",
+            "native": "Preis"
+          },
+          {
+            "foreign": "throw",
+            "native": "werfen"
+          },
+          {
+            "foreign": "toss",
+            "native": "werfen"
+          },
+          {
+            "foreign": "village fête",
+            "native": "Dorffest"
+          }
+         ]
+      },
+      {
+        "name": "02 Highland Games",
+        "expressions": [
+          {
+            "foreign": "amazing",
+            "native": "erstaunlich, toll"
+          },
+          {
+            "foreign": "arrangement",
+            "native": "hierː Abmachung, Verabredung"
+          },
+          {
+            "foreign": "attend",
+            "native": "anwesend sein bei, besuchen"
+          },
+          {
+            "foreign": "be game",
+            "native": "bereit sein, dabei sein"
+          },
+          {
+            "foreign": "brilliantly",
+            "native": "brillant, hervorragend"
+          },
+          {
+            "foreign": "complicated",
+            "native": "kompliziert"
+          },
+          {
+            "foreign": "concert",
+            "native": "Konzert"
+          },
+          {
+            "foreign": "fantastic",
+            "native": "fantastisch"
+          },
+          {
+            "foreign": "have fun",
+            "native": "Spass haben"
+          },
+          {
+            "foreign": "heavy",
+            "native": "schwer"
+          },
+          {
+            "foreign": "hill",
+            "native": "Hügel"
+          },
+          {
+            "foreign": "metal",
+            "native": "Metall"
+          },
+          {
+            "foreign": "noon",
+            "native": "Mittag"
+          },
+          {
+            "foreign": "strange",
+            "native": "merkwürdig"
+          },
+          {
+            "foreign": "weird",
+            "native": "seltsam, komisch"
+          },
+          {
+            "foreign": "wonderful",
+            "native": "wunderbar"
+          }
+         ]
+      },
+      {
+        "name": "03 Village fete",
+        "expressions": [
+          {
+            "foreign": "at the bottom",
+            "native": "unten"
+          },
+          {
+            "foreign": "at the top",
+            "native": "oben"
+          },
+          {
+            "foreign": "be allowed to",
+            "native": "dürfen"
+          },
+          {
+            "foreign": "corner",
+            "native": "Ecke"
+          },
+          {
+            "foreign": "entertaining",
+            "native": "unterhaltsam"
+          },
+          {
+            "foreign": "entertainment",
+            "native": "Unterhaltung"
+          },
+          {
+            "foreign": "equipment",
+            "native": "Ausrüstung, Ausstattung"
+          },
+          {
+            "foreign": "find one's way (to)",
+            "native": "den Weg finden (zu)"
+          },
+          {
+            "foreign": "finishing point",
+            "native": "Endpunkt, Zielort"
+          },
+          {
+            "foreign": "foreground",
+            "native": "Vordergrund"
+          },
+          {
+            "foreign": "in the top left-hand corner",
+            "native": "links oben, oben links in der Ecke"
+          },
+          {
+            "foreign": "knock down/over",
+            "native": "umwerfen, treffen"
+          },
+          {
+            "foreign": "nowadays",
+            "native": "heutzutage"
+          },
+          {
+            "foreign": "popular",
+            "native": "beliebt"
+          },
+          {
+            "foreign": "right-hand",
+            "native": "rechts"
+          },
+          {
+            "foreign": "starting point",
+            "native": "Ausgangspunkt"
+          },
+          {
+            "foreign": "take place",
+            "native": "stattfinden"
+          },
+          {
+            "foreign": "tell someone the way",
+            "native": "jemandem den Weg beschreiben"
+          },
+          {
+            "foreign": "tie",
+            "native": "binden"
+          },
+          {
+            "foreign": "unusual",
+            "native": "ungewöhnlich"
+          },
+          {
+            "foreign": "volunteer",
+            "native": "Freiwillige/-r"
+          },
+          {
+            "foreign": "winner",
+            "native": "Gewinner/-in"
+          }
+         ]
+      },
+      {
+        "name": "04 Focus",
+        "expressions": [
+          {
+            "foreign": "attitude",
+            "native": "Haltung, Einstellung"
+          },
+          {
+            "foreign": "hit the target",
+            "native": "das/ins Ziel treffen"
+          },
+          {
+            "foreign": "quite",
+            "native": "ziemlich, ganz, völlig"
+          },
+          {
+            "foreign": "rather",
+            "native": "ziemlich, eher"
+          },
+          {
+            "foreign": "really",
+            "native": "wirklich"
+          },
+          {
+            "foreign": "require",
+            "native": "brauchen, benötigen"
+          },
+          {
+            "foreign": "sketch",
+            "native": "hier: Skizze"
+          },
+          {
+            "foreign": "space",
+            "native": "Raum, Platz"
+          }
+         ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 10",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "brilliant",
+            "native": "hervorragend, fantastisch"
+          },
+          {
+            "foreign": "chorus",
+            "native": "Refrain"
+          },
+          {
+            "foreign": "clap",
+            "native": "klatschen"
+          },
+          {
+            "foreign": "lyrics",
+            "native": "Liedtext"
+          },
+          {
+            "foreign": "melody",
+            "native": "Melodie"
+          },
+          {
+            "foreign": "mood",
+            "native": "Laune, Stimmung"
+          },
+          {
+            "foreign": "rhythm",
+            "native": "Rhythmus"
+          },
+          {
+            "foreign": "stress",
+            "native": "hier: Betonung"
+          },
+          {
+            "foreign": "style",
+            "native": "Stil"
+          },
+          {
+            "foreign": "tune",
+            "native": "Melodie"
+          }
+         ]
+      },
+      {
+        "name": "02 Music makes the world go round",
+        "expressions": [
+          {
+            "foreign": "every",
+            "native": "jede(r, s)"
+          },
+          {
+            "foreign": "fascinating",
+            "native": "faszinierend"
+          },
+          {
+            "foreign": "hear",
+            "native": "hören (passiv)"
+          },
+          {
+            "foreign": "listen to",
+            "native": "hören, anhören, zuhören (aktiv)"
+          },
+          {
+            "foreign": "loud",
+            "native": "laut"
+          },
+          {
+            "foreign": "make someone feel (good/bad)",
+            "native": "machen, dass sich jemand (gut/schlecht) fühlt"
+          },
+          {
+            "foreign": "music",
+            "native": "Musik"
+          },
+          {
+            "foreign": "neither",
+            "native": "auch nicht"
+          },
+          {
+            "foreign": "play a big part",
+            "native": "eine grosse Rolle spielen"
+          },
+          {
+            "foreign": "singer",
+            "native": "Sänger/-in"
+          },
+          {
+            "foreign": "song",
+            "native": "Lied"
+          }
+         ]
+      },
+      {
+        "name": "03 Music to my ears",
+        "expressions": [
+          {
+            "foreign": "be interested in",
+            "native": "sich interessieren für"
+          },
+          {
+            "foreign": "beat",
+            "native": "Takt"
+          },
+          {
+            "foreign": "chord",
+            "native": "Akkord"
+          },
+          {
+            "foreign": "do fine",
+            "native": "gut gehen, sich gut fühlen; zurechtkommen"
+          },
+          {
+            "foreign": "drums",
+            "native": "Schlagzeug"
+          },
+          {
+            "foreign": "energetic",
+            "native": "energiegeladen"
+          },
+          {
+            "foreign": "final",
+            "native": "letzte(r, s)"
+          },
+          {
+            "foreign": "fit in",
+            "native": "dazupassen"
+          },
+          {
+            "foreign": "flute",
+            "native": "Flöte"
+          },
+          {
+            "foreign": "frustrated",
+            "native": "frustriert"
+          },
+          {
+            "foreign": "guitar",
+            "native": "Gitarre"
+          },
+          {
+            "foreign": "helpless",
+            "native": "hilflos"
+          },
+          {
+            "foreign": "instrument",
+            "native": "Instrument"
+          },
+          {
+            "foreign": "make a wish come true",
+            "native": "einen Wunsch in Erfüllung gehen lassen"
+          },
+          {
+            "foreign": "music to my ears",
+            "native": "Musik in meinen Ohren"
+          },
+          {
+            "foreign": "musical",
+            "native": "musikalisch, Musik-"
+          },
+          {
+            "foreign": "piano",
+            "native": "Klavier"
+          },
+          {
+            "foreign": "thoughtful",
+            "native": "nachdenklich"
+          },
+          {
+            "foreign": "trumpet",
+            "native": "Trompete"
+          },
+          {
+            "foreign": "violin",
+            "native": "Violine, Geige"
+          }
+         ]
+      },
+      {
+        "name": "04 What the critics say",
+        "expressions": [
+          {
+            "foreign": "awesome",
+            "native": "eindrucksvoll, super"
+          },
+          {
+            "foreign": "awful",
+            "native": "furchtbar, schrecklich"
+          },
+          {
+            "foreign": "boring",
+            "native": "langweilig"
+          },
+          {
+            "foreign": "critic",
+            "native": "Kritiker/-in, Rezensent/-in"
+          },
+          {
+            "foreign": "eighties",
+            "native": "Achtziger(jahre)"
+          },
+          {
+            "foreign": "enthusiastic",
+            "native": "enthusiastisch, begeistert"
+          },
+          {
+            "foreign": "even if",
+            "native": "selbst wenn, auch wenn"
+          },
+          {
+            "foreign": "honest",
+            "native": "ehrlich"
+          },
+          {
+            "foreign": "it reminds me of",
+            "native": "es erinnert mich an"
+          },
+          {
+            "foreign": "lovely",
+            "native": "wunderbar, reizend"
+          },
+          {
+            "foreign": "musician",
+            "native": "Musiker/-in"
+          },
+          {
+            "foreign": "nineties",
+            "native": "Neunziger(jahre)"
+          },
+          {
+            "foreign": "old-fashioned",
+            "native": "altmodisch"
+          },
+          {
+            "foreign": "release",
+            "native": "herausbringen, veröffentlichen, freisetzen"
+          },
+          {
+            "foreign": "review",
+            "native": "Rezension, Kritik"
+          },
+          {
+            "foreign": "romantic",
+            "native": "romantisch"
+          },
+          {
+            "foreign": "simple",
+            "native": "einfach, simpel"
+          },
+          {
+            "foreign": "sleepy",
+            "native": "schläfrig"
+          },
+          {
+            "foreign": "soulful",
+            "native": "gefühlvoll"
+          },
+          {
+            "foreign": "spectacular",
+            "native": "atemberaubend, fantastisch"
+          },
+          {
+            "foreign": "sweet",
+            "native": "hier: angenehm, lieblich"
+          },
+          {
+            "foreign": "voice",
+            "native": "Stimme"
+          }
+         ]
+      },
+      {
+        "name": "05 Focus",
+        "expressions": [
+          {
+            "foreign": "hot",
+            "native": "hierː heiss, angesagt"
+          },
+          {
+            "foreign": "piece of music",
+            "native": "Musikstück"
+          },
+          {
+            "foreign": "stuff",
+            "native": "Sachen, Zeug"
+          }
+         ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 11",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "astronaut",
+            "native": "Astronaut/-in"
+          },
+          {
+            "foreign": "attach",
+            "native": "befestigen"
+          },
+          {
+            "foreign": "camp",
+            "native": "Lager, Camp"
+          },
+          {
+            "foreign": "crew",
+            "native": "Crew, Besatzung"
+          },
+          {
+            "foreign": "daily routine",
+            "native": "Alltagsleben, Alltagsroutine"
+          },
+          {
+            "foreign": "fascinated",
+            "native": "fasziniert"
+          },
+          {
+            "foreign": "float off",
+            "native": "fortschweben"
+          },
+          {
+            "foreign": "repair",
+            "native": "reparieren"
+          },
+          {
+            "foreign": "space",
+            "native": "hier: Weltraum"
+          },
+          {
+            "foreign": "spacecraft",
+            "native": "Raumfahrzeug"
+          }
+         ]
+      },
+      {
+        "name": "02 On a space station",
+        "expressions": [
+          {
+            "foreign": "abbreviation",
+            "native": "Abkürzung"
+          },
+          {
+            "foreign": "be part of the job",
+            "native": "Teil der Arbeit sein, zur Arbeit gehören"
+          },
+          {
+            "foreign": "consequence",
+            "native": "Folge, Konsequenz"
+          },
+          {
+            "foreign": "earphone",
+            "native": "Kopfhörer"
+          },
+          {
+            "foreign": "fix",
+            "native": "hier: befestigen"
+          },
+          {
+            "foreign": "get ready",
+            "native": "sich fertig machen"
+          },
+          {
+            "foreign": "get washed",
+            "native": "sich waschen"
+          },
+          {
+            "foreign": "glove",
+            "native": "Handschuh"
+          },
+          {
+            "foreign": "helmet",
+            "native": "Helm"
+          },
+          {
+            "foreign": "journalist",
+            "native": "Journalist/-in"
+          },
+          {
+            "foreign": "mean",
+            "native": "bedeuten"
+          },
+          {
+            "foreign": "microphone",
+            "native": "Mikrofon"
+          },
+          {
+            "foreign": "outside",
+            "native": "draussen, ausserhalb von"
+          },
+          {
+            "foreign": "reach for the stars",
+            "native": "nach den Sternen greifen"
+          },
+          {
+            "foreign": "safety",
+            "native": "Sicherheit"
+          },
+          {
+            "foreign": "schedule",
+            "native": "Termin-, Zeitplan"
+          },
+          {
+            "foreign": "session",
+            "native": "Sitzung, Stunde"
+          },
+          {
+            "foreign": "UFO (unidentified flying object)",
+            "native": "Ufo (unbekanntes Flugobjekt)"
+          },
+          {
+            "foreign": "wake",
+            "native": "(auf)wecken"
+          }
+         ]
+      },
+      {
+        "name": "03 Jobs, jobs, jobs...",
+        "expressions": [
+          {
+            "foreign": "a few",
+            "native": "einige"
+          },
+          {
+            "foreign": "a lot (of)",
+            "native": "viel, viele"
+          },
+          {
+            "foreign": "actor, actress",
+            "native": "Schauspieler, Schauspielerin"
+          },
+          {
+            "foreign": "ambitious",
+            "native": "ehrgeizig"
+          },
+          {
+            "foreign": "athletic",
+            "native": "athletisch, sportlich"
+          },
+          {
+            "foreign": "attractive",
+            "native": "attraktiv"
+          },
+          {
+            "foreign": "be fascinated by",
+            "native": "fasziniert sein von"
+          },
+          {
+            "foreign": "brave",
+            "native": "mutig, tapfer"
+          },
+          {
+            "foreign": "career",
+            "native": "Karriere, Laufbahn"
+          },
+          {
+            "foreign": "carpenter",
+            "native": "Zimmermann, Schreiner/-in"
+          },
+          {
+            "foreign": "chef",
+            "native": "Koch, Köchin"
+          },
+          {
+            "foreign": "competent",
+            "native": "kompetent, sachverständig"
+          },
+          {
+            "foreign": "computer programmer",
+            "native": "Programmierer/-in"
+          },
+          {
+            "foreign": "cooperative",
+            "native": "kooperativ, entgegenkommend"
+          },
+          {
+            "foreign": "creative",
+            "native": "kreativ"
+          },
+          {
+            "foreign": "experience",
+            "native": "Erfahrung"
+          },
+          {
+            "foreign": "firefighter",
+            "native": "Feuerwehrmann, -frau"
+          },
+          {
+            "foreign": "full-time",
+            "native": "Vollzeit, ganztags"
+          },
+          {
+            "foreign": "generous",
+            "native": "grosszügig"
+          },
+          {
+            "foreign": "hairdresser",
+            "native": "Coiffeur, Coiffeuse"
+          },
+          {
+            "foreign": "lawyer",
+            "native": "Rechtsanwalt/-anwältin"
+          },
+          {
+            "foreign": "lazy",
+            "native": "faul, träge"
+          },
+          {
+            "foreign": "mechanic",
+            "native": "Mechaniker/-in"
+          },
+          {
+            "foreign": "nobody",
+            "native": "niemand, keiner"
+          },
+          {
+            "foreign": "nurse",
+            "native": "Krankenpfleger/-in"
+          },
+          {
+            "foreign": "opportunity",
+            "native": "Gelegenheit, Chance"
+          },
+          {
+            "foreign": "part-time",
+            "native": "Teilzeit, halbtags"
+          },
+          {
+            "foreign": "perfect",
+            "native": "perfekt, hier: wie geschaffen"
+          },
+          {
+            "foreign": "policeman, policewoman",
+            "native": "Polizist/-in"
+          },
+          {
+            "foreign": "practical",
+            "native": "praktisch"
+          },
+          {
+            "foreign": "punctual",
+            "native": "pünktlich"
+          },
+          {
+            "foreign": "reasonable",
+            "native": "vernünftig"
+          },
+          {
+            "foreign": "reliable",
+            "native": "zuverlässig"
+          },
+          {
+            "foreign": "requirement",
+            "native": "Anforderung"
+          },
+          {
+            "foreign": "secretary",
+            "native": "Sekretär/-in"
+          },
+          {
+            "foreign": "security guard",
+            "native": "Sicherheitsbeamter/-beamtin"
+          },
+          {
+            "foreign": "shop assistant",
+            "native": "Ladenangestellte/-r, Verkäufer/-in"
+          },
+          {
+            "foreign": "slim",
+            "native": "schlank"
+          },
+          {
+            "foreign": "tidy",
+            "native": "ordentlich"
+          },
+          {
+            "foreign": "unemployed",
+            "native": "arbeitslos"
+          }
+         ]
+      },
+      {
+        "name": "04 Rocket science",
+        "expressions": [
+          {
+            "foreign": "application",
+            "native": "Bewerbung"
+          },
+          {
+            "foreign": "citizenship",
+            "native": "Staatsbürgerschaft"
+          },
+          {
+            "foreign": "date of birth",
+            "native": "Geburtsdatum"
+          },
+          {
+            "foreign": "European",
+            "native": "europäisch"
+          },
+          {
+            "foreign": "form",
+            "native": "hierː Formular"
+          },
+          {
+            "foreign": "gender",
+            "native": "Geschlecht"
+          },
+          {
+            "foreign": "have in common",
+            "native": "gemeinsam haben"
+          },
+          {
+            "foreign": "including",
+            "native": "einschliesslich"
+          },
+          {
+            "foreign": "mobile (phone)",
+            "native": "Handy, Mobiltelefon"
+          },
+          {
+            "foreign": "Norway",
+            "native": "Norwegen"
+          },
+          {
+            "foreign": "participant",
+            "native": "Teilnehmer/-in"
+          },
+          {
+            "foreign": "physics",
+            "native": "Physik"
+          },
+          {
+            "foreign": "postal code",
+            "native": "Postleitzahl"
+          },
+          {
+            "foreign": "project",
+            "native": "Projekt, Vorhaben"
+          },
+          {
+            "foreign": "rocket science",
+            "native": "Raketenphysik"
+          },
+          {
+            "foreign": "scientific",
+            "native": "(natur)wissenschaftlich"
+          },
+          {
+            "foreign": "skill",
+            "native": "Geschick, Fähigkeit, Fertigkeit"
+          },
+          {
+            "foreign": "take control of",
+            "native": "die Leitung übernehmen"
+          }
+         ]
+      },
+      {
+        "name": "05 Focus",
+        "expressions": [
+          {
+            "foreign": "candidate",
+            "native": "Kandidat/-in, Bewerber/-in"
+          },
+          {
+            "foreign": "convince",
+            "native": "überzeugen"
+          },
+          {
+            "foreign": "formal letter",
+            "native": "förmlicher, offizieller Brief"
+          },
+          {
+            "foreign": "fully booked",
+            "native": "ausgebucht"
+          },
+          {
+            "foreign": "letter of application",
+            "native": "Bewerbungsschreiben"
+          },
+          {
+            "foreign": "sign",
+            "native": "unterschreiben"
+          }
+         ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 12",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "coal mine",
+            "native": "Kohlenbergwerk"
+          },
+          {
+            "foreign": "factory",
+            "native": "Fabrik"
+          },
+          {
+            "foreign": "master",
+            "native": "Herr, Meister"
+          },
+          {
+            "foreign": "polite",
+            "native": "höflich"
+          },
+          {
+            "foreign": "porridge",
+            "native": "Porridge, Haferbrei"
+          },
+          {
+            "foreign": "steal",
+            "native": "stehlen"
+          },
+          {
+            "foreign": "textile",
+            "native": "Textil-"
+          },
+          {
+            "foreign": "Victorian Age",
+            "native": "Viktorianisches Zeitalter"
+          },
+          {
+            "foreign": "wallet",
+            "native": "Brieftasche, Portemonnaie"
+          },
+          {
+            "foreign": "workhouse",
+            "native": "Armenhaus (im Viktorianischen England)"
+          }
+         ]
+      },
+      {
+        "name": "02 All work and no play",
+        "expressions": [
+          {
+            "foreign": "afford",
+            "native": "sich etw. leisten"
+          },
+          {
+            "foreign": "age",
+            "native": "Alter"
+          },
+          {
+            "foreign": "all work and no play (makes Jack a dull boy)",
+            "native": "Arbeit allein (macht auch nicht glücklich)"
+          },
+          {
+            "foreign": "apart from",
+            "native": "abgesehen von, ausser"
+          },
+          {
+            "foreign": "basically",
+            "native": "im Grunde, hauptsächlich"
+          },
+          {
+            "foreign": "be like",
+            "native": "sein wie"
+          },
+          {
+            "foreign": "bible",
+            "native": "Bibel"
+          },
+          {
+            "foreign": "British Empire",
+            "native": "Britisches Empire (Weltreich)"
+          },
+          {
+            "foreign": "business",
+            "native": "Geschäft, Handel"
+          },
+          {
+            "foreign": "chalk",
+            "native": "Kreide"
+          },
+          {
+            "foreign": "child labour",
+            "native": "Kinderarbeit"
+          },
+          {
+            "foreign": "countryside",
+            "native": "Landschaft, ländliches Gebiet"
+          },
+          {
+            "foreign": "dirty",
+            "native": "schmutzig"
+          },
+          {
+            "foreign": "educated",
+            "native": "gebildet"
+          },
+          {
+            "foreign": "education",
+            "native": "Bildung, Ausbildung"
+          },
+          {
+            "foreign": "elementary school",
+            "native": "Grundschule, Primarschule"
+          },
+          {
+            "foreign": "excellent",
+            "native": "ausgezeichnet"
+          },
+          {
+            "foreign": "false",
+            "native": "falsch"
+          },
+          {
+            "foreign": "farmer",
+            "native": "Bauer, Bäuerin"
+          },
+          {
+            "foreign": "free",
+            "native": "hier: gratis"
+          },
+          {
+            "foreign": "minister",
+            "native": "Minister/-in"
+          },
+          {
+            "foreign": "most",
+            "native": "hierː die meisten"
+          },
+          {
+            "foreign": "narrow",
+            "native": "eng, schmal"
+          },
+          {
+            "foreign": "politics",
+            "native": "Politik"
+          },
+          {
+            "foreign": "princess",
+            "native": "Prinzessin"
+          },
+          {
+            "foreign": "queen",
+            "native": "Königin"
+          },
+          {
+            "foreign": "rent",
+            "native": "Miete"
+          },
+          {
+            "foreign": "support",
+            "native": "unterstützen"
+          },
+          {
+            "foreign": "time of change",
+            "native": "Zeit der Veränderung/Umwälzung"
+          },
+          {
+            "foreign": "Victorian",
+            "native": "viktorianisch"
+          }
+         ]
+      },
+      {
+        "name": "03 Oliver Twist",
+        "expressions": [
+          {
+            "foreign": "worker",
+            "native": "Arbeiter/-in"
+          },
+          {
+            "foreign": "(not) anymore",
+            "native": "(nicht) mehr"
+          },
+          {
+            "foreign": "action",
+            "native": "Handlung"
+          },
+          {
+            "foreign": "beard",
+            "native": "Bart"
+          },
+          {
+            "foreign": "bowl",
+            "native": "Schale"
+          },
+          {
+            "foreign": "bread",
+            "native": "Brot"
+          },
+          {
+            "foreign": "candle",
+            "native": "Kerze"
+          },
+          {
+            "foreign": "cellar",
+            "native": "Keller"
+          },
+          {
+            "foreign": "Christmas carol",
+            "native": "Weihnachtslied"
+          },
+          {
+            "foreign": "coat",
+            "native": "Mantel"
+          },
+          {
+            "foreign": "courtroom",
+            "native": "Gerichtssaal"
+          },
+          {
+            "foreign": "criminal",
+            "native": "Verbrecher/-in"
+          },
+          {
+            "foreign": "crossroad",
+            "native": "Kreuzung, Scheideweg"
+          },
+          {
+            "foreign": "eventually",
+            "native": "schliesslich, irgendwann"
+          },
+          {
+            "foreign": "fill in a form",
+            "native": "ein Formular ausfüllen"
+          },
+          {
+            "foreign": "frying pan",
+            "native": "Bratpfanne"
+          },
+          {
+            "foreign": "gang",
+            "native": "Truppe, Bande"
+          },
+          {
+            "foreign": "gentleman",
+            "native": "Herr, Gentleman"
+          },
+          {
+            "foreign": "hall",
+            "native": "Saal"
+          },
+          {
+            "foreign": "hungry",
+            "native": "hungrig"
+          },
+          {
+            "foreign": "iron",
+            "native": "Eisen"
+          },
+          {
+            "foreign": "lend",
+            "native": "leihen"
+          },
+          {
+            "foreign": "marry",
+            "native": "heiraten"
+          },
+          {
+            "foreign": "merry Christmas",
+            "native": "frohe Weihnachten"
+          },
+          {
+            "foreign": "midnight",
+            "native": "Mitternacht"
+          },
+          {
+            "foreign": "mill",
+            "native": "Fabrik, Mühle"
+          },
+          {
+            "foreign": "novel",
+            "native": "Roman"
+          },
+          {
+            "foreign": "nowhere",
+            "native": "nirgendwo"
+          },
+          {
+            "foreign": "of course not",
+            "native": "natürlich nicht"
+          },
+          {
+            "foreign": "orphan",
+            "native": "Waisenkind"
+          },
+          {
+            "foreign": "owner",
+            "native": "Besitzer/-in, Eigentümer/-in"
+          },
+          {
+            "foreign": "pan",
+            "native": "Pfanne"
+          },
+          {
+            "foreign": "pass out",
+            "native": "ohnmächtig werden"
+          },
+          {
+            "foreign": "path",
+            "native": "Weg, Pfad"
+          },
+          {
+            "foreign": "pickpocket",
+            "native": "Taschendieb/-in"
+          },
+          {
+            "foreign": "pollution",
+            "native": "Verschmutzung, Umweltverschmutzung"
+          },
+          {
+            "foreign": "pot",
+            "native": "Topf"
+          },
+          {
+            "foreign": "prayer",
+            "native": "Gebet"
+          },
+          {
+            "foreign": "prison",
+            "native": "Gefängnis"
+          },
+          {
+            "foreign": "sausage",
+            "native": "Wurst"
+          },
+          {
+            "foreign": "short story",
+            "native": "Kurzgeschichte"
+          },
+          {
+            "foreign": "sir",
+            "native": "(mein) Herr"
+          },
+          {
+            "foreign": "situation",
+            "native": "Situation, Lage"
+          },
+          {
+            "foreign": "stone",
+            "native": "Stein"
+          },
+          {
+            "foreign": "supper",
+            "native": "Abendessen"
+          },
+          {
+            "foreign": "thief",
+            "native": "Dieb/-in"
+          },
+          {
+            "foreign": "trust",
+            "native": "vertrauen"
+          },
+          {
+            "foreign": "uniform",
+            "native": "Uniform"
+          },
+          {
+            "foreign": "wash",
+            "native": "waschen"
+          },
+          {
+            "foreign": "whisper",
+            "native": "flüstern"
+          },
+          {
+            "foreign": "working class",
+            "native": "Arbeiterklasse"
+          },
+          {
+            "foreign": "Would you mind …-ing …?",
+            "native": "Haben Sie etwas dagegen, ... zu ...?"
+          },
+          {
+            "foreign": "yes, of course",
+            "native": "ja, natürlich"
+          }
+         ]
+      },
+      {
+        "name": "04 Focus",
+        "expressions": [
+          {
+            "foreign": "court",
+            "native": "hierː Gericht"
+          },
+          {
+            "foreign": "decide",
+            "native": "entscheiden"
+          },
+          {
+            "foreign": "defend",
+            "native": "verteidigen"
+          },
+          {
+            "foreign": "extra",
+            "native": "zusätzlich"
+          },
+          {
+            "foreign": "happen",
+            "native": "geschehen"
+          },
+          {
+            "foreign": "judge",
+            "native": "Richter/-in"
+          },
+          {
+            "foreign": "robbery",
+            "native": "Raub, Raubüberfall"
+          },
+          {
+            "foreign": "save",
+            "native": "retten"
+          },
+          {
+            "foreign": "statement of defence",
+            "native": "Verteidigungsschreiben"
+          },
+          {
+            "foreign": "trial",
+            "native": "Prozess"
+          },
+          {
+            "foreign": "unfair",
+            "native": "unfair"
+          },
+          {
+            "foreign": "witness",
+            "native": "Zeuge, Zeugin"
+          }
+         ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 13",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "camera",
+            "native": "Kamera, Fotoapparat"
+          },
+          {
+            "foreign": "computer",
+            "native": "Computer"
+          },
+          {
+            "foreign": "device",
+            "native": "Gerät, Apparat"
+          },
+          {
+            "foreign": "electronic",
+            "native": "elektronisch"
+          },
+          {
+            "foreign": "funny",
+            "native": "lustig, witzig"
+          },
+          {
+            "foreign": "mysterious",
+            "native": "geheimnisvoll, mysteriös"
+          },
+          {
+            "foreign": "photographer",
+            "native": "Fotograf/-in"
+          },
+          {
+            "foreign": "robot",
+            "native": "Roboter"
+          },
+          {
+            "foreign": "romantic",
+            "native": "romantisch"
+          },
+          {
+            "foreign": "screen",
+            "native": "Bildschirm"
+          }
+         ]
+      },
+      {
+        "name": "02 Machines that take pictures",
+        "expressions": [
+          {
+            "foreign": "advantage",
+            "native": "Vorteil"
+          },
+          {
+            "foreign": "clever",
+            "native": "klug, gescheit"
+          },
+          {
+            "foreign": "complicated",
+            "native": "kompliziert"
+          },
+          {
+            "foreign": "flat",
+            "native": "flach"
+          },
+          {
+            "foreign": "fun fact",
+            "native": "witzige Tatsache"
+          },
+          {
+            "foreign": "history",
+            "native": "Geschichte"
+          },
+          {
+            "foreign": "intriguing",
+            "native": "faszinierend, interessant"
+          },
+          {
+            "foreign": "leather",
+            "native": "Leder"
+          },
+          {
+            "foreign": "light",
+            "native": "hierː leicht"
+          },
+          {
+            "foreign": "made of wood",
+            "native": "aus Holz gemacht"
+          },
+          {
+            "foreign": "mirror",
+            "native": "Spiegel"
+          },
+          {
+            "foreign": "model",
+            "native": "Modell"
+          },
+          {
+            "foreign": "photograph",
+            "native": "Fotografie"
+          },
+          {
+            "foreign": "round",
+            "native": "rund, rundlich"
+          },
+          {
+            "foreign": "science fiction",
+            "native": "Science-Fiction"
+          },
+          {
+            "foreign": "selfie",
+            "native": "Selfie"
+          },
+          {
+            "foreign": "self-portrait",
+            "native": "Selbstporträt"
+          },
+          {
+            "foreign": "shape",
+            "native": "Form, Gestalt"
+          },
+          {
+            "foreign": "slow",
+            "native": "langsam"
+          },
+          {
+            "foreign": "social media",
+            "native": "Social Media, soziale Medien"
+          },
+          {
+            "foreign": "store",
+            "native": "speichern, lagern"
+          },
+          {
+            "foreign": "take photos/pictures",
+            "native": "Fotos/Bilder machen"
+          },
+          {
+            "foreign": "technology",
+            "native": "Technologie, Technik"
+          }
+         ]
+      },
+      {
+        "name": "03 A science fiction story",
+        "expressions": [
+          {
+            "foreign": "assume",
+            "native": "annehmen, vermuten"
+          },
+          {
+            "foreign": "ball",
+            "native": "Ball, Kugel"
+          },
+          {
+            "foreign": "broken",
+            "native": "hier: kaputt"
+          },
+          {
+            "foreign": "ceiling",
+            "native": "(Zimmer)decke"
+          },
+          {
+            "foreign": "coffee",
+            "native": "Kaffee"
+          },
+          {
+            "foreign": "confused",
+            "native": "verwirrt"
+          },
+          {
+            "foreign": "desk",
+            "native": "Schreibtisch"
+          },
+          {
+            "foreign": "ending",
+            "native": "Ende, Schluss, Ausgang"
+          },
+          {
+            "foreign": "enter",
+            "native": "betreten, eintippen"
+          },
+          {
+            "foreign": "have luck",
+            "native": "Glück haben"
+          },
+          {
+            "foreign": "human",
+            "native": "Mensch, menschliches Wesen"
+          },
+          {
+            "foreign": "immediately",
+            "native": "sofort, gleich"
+          },
+          {
+            "foreign": "knob",
+            "native": "Knopf, Drehknopf"
+          },
+          {
+            "foreign": "mess up",
+            "native": "durcheinanderbringen, vermasseln"
+          },
+          {
+            "foreign": "power",
+            "native": "hier: Macht, Kraft"
+          },
+          {
+            "foreign": "prototype",
+            "native": "Prototyp"
+          },
+          {
+            "foreign": "return",
+            "native": "hierː zurückkehren"
+          },
+          {
+            "foreign": "reusable",
+            "native": "wiederverwendbar"
+          },
+          {
+            "foreign": "scary",
+            "native": "unheimlich, furchterregend"
+          },
+          {
+            "foreign": "serious",
+            "native": "ernst, ernsthaft"
+          },
+          {
+            "foreign": "smile",
+            "native": "lächeln"
+          },
+          {
+            "foreign": "solution",
+            "native": "Lösung"
+          },
+          {
+            "foreign": "suddenly",
+            "native": "plötzlich"
+          },
+          {
+            "foreign": "touch screen",
+            "native": "Touchscreen"
+          },
+          {
+            "foreign": "unfinished",
+            "native": "unvollendet"
+          },
+          {
+            "foreign": "usual",
+            "native": "üblich, gewöhnlich"
+          },
+          {
+            "foreign": "wireless",
+            "native": "drahtlos"
+          },
+          {
+            "foreign": "work",
+            "native": "hier: funktionieren"
+          }
+         ]
+      }
+    ]
+  },
+  {
+    "name": "Unit 14",
+    "lessons": [
+      {
+        "name": "01 Keywords",
+        "expressions": [
+          {
+            "foreign": "chai",
+            "native": "Chai (Tee)"
+          },
+          {
+            "foreign": "clothes",
+            "native": "Kleider"
+          },
+          {
+            "foreign": "conversation",
+            "native": "Gespräch, Unterhaltung"
+          },
+          {
+            "foreign": "custom",
+            "native": "Brauch, Sitte"
+          },
+          {
+            "foreign": "dish",
+            "native": "Gericht (Speise)"
+          },
+          {
+            "foreign": "greet",
+            "native": "grüssen, begrüssen"
+          },
+          {
+            "foreign": "Indian",
+            "native": "indisch"
+          },
+          {
+            "foreign": "polite",
+            "native": "höflich"
+          },
+          {
+            "foreign": "sari",
+            "native": "Sari"
+          },
+          {
+            "foreign": "shall",
+            "native": "sollen"
+          }
+         ]
+      },
+      {
+        "name": "02 All about India",
+        "expressions": [
+          {
+            "foreign": "accent",
+            "native": "Akzent"
+          },
+          {
+            "foreign": "curry",
+            "native": "Curry"
+          },
+          {
+            "foreign": "elephant",
+            "native": "Elefant"
+          },
+          {
+            "foreign": "guru",
+            "native": "Guru, spiritueller Lehrer"
+          },
+          {
+            "foreign": "herself",
+            "native": "selbst, sich selbst (weiblich)"
+          },
+          {
+            "foreign": "himself",
+            "native": "selbst, sich selbst (männlich)"
+          },
+          {
+            "foreign": "incredible",
+            "native": "unglaublich"
+          },
+          {
+            "foreign": "India",
+            "native": "Indien"
+          },
+          {
+            "foreign": "itself",
+            "native": "selbst, sich selbst (sächlich)"
+          },
+          {
+            "foreign": "mountain",
+            "native": "Berg, Gebirgs-"
+          },
+          {
+            "foreign": "ourselves",
+            "native": "selbst, uns selbst"
+          },
+          {
+            "foreign": "pyjamas",
+            "native": "Schlafanzug"
+          },
+          {
+            "foreign": "reflexive pronoun",
+            "native": "Reflexivpronomen"
+          },
+          {
+            "foreign": "shampoo",
+            "native": "Shampoo"
+          },
+          {
+            "foreign": "south",
+            "native": "Süden"
+          },
+          {
+            "foreign": "themselves",
+            "native": "selbst, sich selbst (Plural)"
+          },
+          {
+            "foreign": "typical",
+            "native": "typisch"
+          },
+          {
+            "foreign": "yourself",
+            "native": "selbst, dich selbst"
+          }
+         ]
+      },
+      {
+        "name": "03 Megacity Mumbai",
+        "expressions": [
+          {
+            "foreign": "appropriately",
+            "native": "angemessen"
+          },
+          {
+            "foreign": "avoid",
+            "native": "vermeiden"
+          },
+          {
+            "foreign": "backpacker",
+            "native": "Rucksacktourist/-in"
+          },
+          {
+            "foreign": "behave",
+            "native": "sich verhalten, sich benehmen"
+          },
+          {
+            "foreign": "bottle",
+            "native": "Flasche"
+          },
+          {
+            "foreign": "colourful",
+            "native": "farbenfroh, bunt"
+          },
+          {
+            "foreign": "common",
+            "native": "üblich, weit verbreitet"
+          },
+          {
+            "foreign": "dress",
+            "native": "Kleid"
+          },
+          {
+            "foreign": "everyday",
+            "native": "alltäglich, Alltags-"
+          },
+          {
+            "foreign": "figure of eight",
+            "native": "Acht, Zahl/Form Acht"
+          },
+          {
+            "foreign": "huge",
+            "native": "riesig"
+          },
+          {
+            "foreign": "impolite",
+            "native": "unhöflich"
+          },
+          {
+            "foreign": "interaction",
+            "native": "Interaktion, Gesprächssituation"
+          },
+          {
+            "foreign": "internet access",
+            "native": "Internetzugang"
+          },
+          {
+            "foreign": "noisy",
+            "native": "lärmig, laut"
+          },
+          {
+            "foreign": "passport",
+            "native": "Reisepass"
+          },
+          {
+            "foreign": "respect",
+            "native": "Respekt, Achtung"
+          },
+          {
+            "foreign": "shake hands",
+            "native": "die Hände schütteln"
+          },
+          {
+            "foreign": "shirt",
+            "native": "Hemd"
+          },
+          {
+            "foreign": "sight",
+            "native": "Anblick, Sehenswürdigkeit"
+          },
+          {
+            "foreign": "social",
+            "native": "gesellschaftlich"
+          },
+          {
+            "foreign": "spice",
+            "native": "Gewürz"
+          },
+          {
+            "foreign": "tea",
+            "native": "Tee"
+          },
+          {
+            "foreign": "thumb",
+            "native": "Daumen"
+          },
+          {
+            "foreign": "visit",
+            "native": "besuchen"
+          }
+         ]
+      }
+    ]
+  }
+]
