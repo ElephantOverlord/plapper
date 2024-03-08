@@ -20,7 +20,7 @@
       genutzt werden.
     </p>
     <p>
-      <b>plapper.ch</b> ist <a href="https://github.com/eFabrix/plapper" target="_blank">Open-Source-Software</a>.
+      <b>plapper.ch</b> ist <a href="https://github.com/ElephantOverlord/plapper" target="_blank">Open-Source-Software</a>.
     </p>
   </DisplayBox>
 </template>
