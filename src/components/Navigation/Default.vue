@@ -49,6 +49,16 @@
           Staffellauf
         </router-link>
       </div>
+      <div class="lg:block mt-6" :class="closed ? 'hidden' : 'block'">
+        <div class="px-2 py-2 text-xl font-bold mx-8">Werkzeuge</div>
+        <router-link
+          class="navLink"
+          to="/tool/vocabulary-test-generator"
+          @click="close(true)"
+        >
+          Vokabular-Test Generator
+        </router-link>
+      </div>
     </div>
   </div>
 </template>

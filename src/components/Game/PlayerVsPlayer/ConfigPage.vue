@@ -12,9 +12,9 @@
       </p>
     </DisplayBox>
 
-    <GameConfigBook v-model="book" />
+    <ConfigBook v-model="book" />
 
-    <GameConfigLessons
+    <ConfigLessons
       v-if="bookValidated"
       v-model="expressions"
       :book="book"
@@ -47,9 +47,9 @@ import Expression from "../../../classes/Utilities/Expression";
 import GameCode from "../../../classes/Utilities/GameCode";
 import Store from "../../../classes/Utilities/Store";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
-import GameConfigBook from "../Config/Book.vue";
+import ConfigBook from "../../Config/Book.vue";
 import GameConfigGame from "../Config/Game.vue";
-import GameConfigLessons from "../Config/Lessons.vue";
+import ConfigLessons from "../../Config/Lessons.vue";
 import GameConfigTime from "../Config/Time.vue";
 
 defineComponent({

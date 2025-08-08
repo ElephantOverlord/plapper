@@ -5,7 +5,7 @@
     <DisplayBox color="gray">
       <h1 class="mb-3">Seiltanzen</h1>
       <p>
-        Die Schülerinnen und Schüler spielen in zwei Teams. Mit jeder korrekt
+        Die Lernenden spielen in zwei Teams. Mit jeder korrekt
         beantworteten Frage locken sie ein Huhn, welches sich auf ein Seil
         verirrt hat, näher auf ihre Seite. Wir das Huhn erfolgreich auf die
         eigene Seite gelockt, erhält das Team einen Punkt. Gewonnen hat das
@@ -13,9 +13,9 @@
       </p>
     </DisplayBox>
 
-    <GameConfigBook v-model="book" />
+    <ConfigBook v-model="book" />
 
-    <GameConfigLessons
+    <ConfigLessons
       v-if="bookValidated"
       v-model="expressions"
       :book="book"
@@ -48,9 +48,9 @@ import Expression from "../../../classes/Utilities/Expression";
 import GameCode from "../../../classes/Utilities/GameCode";
 import Store from "../../../classes/Utilities/Store";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
-import GameConfigBook from "../Config/Book.vue";
+import ConfigBook from "../../Config/Book.vue";
 import GameConfigGame from "../Config/Game.vue";
-import GameConfigLessons from "../Config/Lessons.vue";
+import ConfigLessons from "../../Config/Lessons.vue";
 import GameConfigTime from "../Config/Time.vue";
 
 defineComponent({

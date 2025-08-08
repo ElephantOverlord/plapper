@@ -33,6 +33,12 @@ const routes = [
     name: "Game Play Student",
     component: () => import("../components/Game/Play/StudentPage.vue"),
   },
+  /** Tools pages */
+  {
+    path: "/tool/vocabulary-test-generator",
+    name: "Vocabulary Test Generator",
+    component: () => import("../components/Tool/VocabularyTestGenerator/ConfigPage.vue"),
+  },
 ];
 const router = createRouter({
   history: createWebHistory(),

@@ -1,7 +1,7 @@
 <template>
   <DisplayBox color="purple">
     <h2 class="mb-2"><i class="eva eva-book-open-outline mr-2" />Lehrmittel</h2>
-    <p class="mb-3">Welches Lehrmittel möchten Sie im Spiel verwenden?</p>
+    <p class="mb-3">Welches Lehrmittel möchten Sie verwenden?</p>
     <select v-model="selected" class="w-full" @change="fetchBook">
       <option selected disabled :value="-1">Lehrmittel</option>
       <option v-for="(bookStub, key) in library" :key="key" :value="key">
@@ -13,10 +13,10 @@
 
 <script lang="ts" setup>
 import { defineComponent, ref } from "vue";
-import DisplayBox from "../../Utilities/DisplayBox.vue";
+import DisplayBox from "../Utilities/DisplayBox.vue";
 
 defineComponent({
-  name: "GameConfigBook",
+  name: "ConfigBook",
 });
 
 const emit = defineEmits(["update:modelValue"]);

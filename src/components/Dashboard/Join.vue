@@ -4,7 +4,7 @@
       <i class="eva eva-play-circle-outline mr-2" />Mitspielen
     </h1>
     <label for="name" class="block mb-2"
-      >Wie möchtest Du im Spiel heissen?</label
+      >Wie möchtest du im Spiel heissen?</label
     >
     <input
       id="name"

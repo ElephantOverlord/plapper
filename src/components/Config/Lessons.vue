@@ -6,7 +6,7 @@
     <h2 class="mb-2"><i class="eva eva-list-outline mr-2" />Lerneinheiten</h2>
 
     <p class="mb-5">
-      Welche Lerneinheiten möchten Sie verwenden? Für dieses Spiel müssen
+      Welche Lerneinheiten möchten Sie verwenden? Es müssen
       <b>mindestens {{ minExpressions }} Vokabeln</b> ausgewählt werden. Die
       aktuelle Auswahl enthält <b>{{ expressions.length }} Vokabeln</b>.
     </p>
@@ -43,11 +43,11 @@
 
 <script lang="ts" setup>
 import { computed, defineComponent, ref, watch } from "vue";
-import Expression from "../../../classes/Utilities/Expression";
-import DisplayBox from "../../Utilities/DisplayBox.vue";
+import Expression from "../../classes/Utilities/Expression";
+import DisplayBox from "../Utilities/DisplayBox.vue";
 
 defineComponent({
-  name: "GameConfigLessons",
+  name: "ConfigLessons",
 });
 
 const props = defineProps({
