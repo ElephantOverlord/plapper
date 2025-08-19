@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2">
     <DisplayBox color="gray">
-      <h1 class="mb-3">Vokabular-Test Generator</h1>
+      <h1 class="mb-3">Wortschatz-Test Generator</h1>
       <p>
         Generieren Sie einen Wortschatz-Test für Ihre Klasse. Wählen Sie die Anzahl
         der zu prüfenden Vokabeln, ein Lehrmittel und die gewünschten Lerneinheiten
@@ -41,6 +41,7 @@ import Expression from "../../../classes/Utilities/Expression";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
 import ConfigBook from "../../Config/Book.vue";
 import ConfigLessons from "../../Config/Lessons.vue";
+import { TDocumentDefinitions } from "pdfmake/interfaces";
 
 defineComponent({
   name: "ToolVocabularyTestGeneratorConfigPage",
@@ -102,7 +103,7 @@ const assignmentExerciseExpressionArrays = computed(() => {
   return expressionArrays;
 });
 
-function generateMakepdfTemplate(solution: boolean): Object {
+function generateMakepdfTemplate(solution: boolean): TDocumentDefinitions {
   return {
     // PDF configuration
     pageSize: 'A4',
