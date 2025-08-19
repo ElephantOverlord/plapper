@@ -18,6 +18,12 @@ based on the official Swiss cantonal schoolbook selection.
 
 To run in development mode, copy `.env.dev.example` to `.env` and configure the environment variables.
 
+Install dependencies:
+
+```bash
+npm install
+```
+
 You can now run the frontend in development mode:
 
 ```bash
