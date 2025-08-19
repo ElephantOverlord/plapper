@@ -31,8 +31,8 @@
 
 <script lang="ts" setup>
 import { computed, defineComponent, ref } from "vue";
-import * as pdfMake from "pdfmake/build/pdfmake";
-import * as vfsFonts from "pdfmake/build/vfs_fonts";
+import pdfMake from "pdfmake/build/pdfmake";
+import vfsFonts from "pdfmake/build/vfs_fonts";
 import { shuffle } from "lodash";
 import { take } from "lodash";
 import { takeRight } from "lodash";
@@ -188,7 +188,8 @@ function generateMakepdfTemplate(solution: boolean): TDocumentDefinitions {
 }
 
 function generatePDF() {
-  pdfMake.vfs = vfsFonts.pdfMake ? vfsFonts.pdfMake.vfs : pdfMake.vfs;
+  // @tsignore
+  pdfMake.vfs = vfsFonts.vfs;
   pdfMake
     .createPdf(generateMakepdfTemplate(false))
     .download('Wortschatz-Test');
