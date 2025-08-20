@@ -3,47 +3,22 @@
     <h1 class="mb-3">
       <i class="eva eva-play-circle-outline mr-2" />Mitspielen
     </h1>
-    <label for="name" class="block mb-2"
-      >Wie möchtest du im Spiel heissen?</label
-    >
-    <input
-      id="name"
-      v-model="name"
-      :disabled="joining"
-      type="text"
-      autocomplete="off"
-      placeholder="Ich heisse..."
-      class="w-full"
-      minlength="1"
-      maxlength="20"
-      @keyup.enter="join"
-    />
+    <label for="name" class="block mb-2">Wie möchtest du im Spiel heissen?</label>
+    <input id="name" v-model="name" :disabled="joining" type="text" autocomplete="off" placeholder="Ich heisse..."
+      class="w-full" minlength="1" maxlength="20" @keyup.enter="join" />
     <label for="key" class="block mt-5 mb-2">Wie lautet der Game-Code?</label>
-    <input
-      id="key"
-      v-model="code"
-      :disabled="joining"
-      type="text"
-      autocomplete="off"
-      placeholder="Der Game-Code lautet..."
-      class="w-full"
-      minlength="4"
-      maxlength="4"
-      @keyup.enter="join"
-    />
-    <DisplayBox
-      v-if="inputError || connectionError"
-      color="light"
-      class="px-5 py-3 text-black rounded shadow-none my-5 animate__animated animate__fadeIn animate__faster"
-    >
+    <input id="key" v-model="code" :disabled="joining" type="text" autocomplete="off"
+      placeholder="Der Game-Code lautet..." class="w-full" minlength="4" maxlength="4" @keyup.enter="join" />
+    <DisplayBox v-if="inputError || connectionError" color="light"
+      class="px-5 py-3 text-black rounded shadow-none my-5 animate__animated animate__fadeIn animate__faster">
       <span v-if="inputError">Gib deinen Namen und den Game-Code ein.</span>
-      <span v-if="connectionError"
-        >Überprüfe deinen Game-Code. Es konnte keine Verbindung hergestellt
-        werden.</span
-      >
+      <span v-if="connectionError">Überprüfe deinen Game-Code. Es konnte keine Verbindung hergestellt
+        werden.</span>
     </DisplayBox>
     <div class="text-right mt-5">
-      <button v-if="!joining" @click="join">Mitspielen!</button>
+      <button v-if="!joining" @click="join">
+        <i class="eva eva-play-circle-outline mr-1" />Mitspielen
+      </button>
       <div v-else class="text-center animate-spin">
         <i class="eva eva-loader-outline eva-2x" />
       </div>

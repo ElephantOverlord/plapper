@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2"
-  >
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2">
     <DisplayBox color="gray">
       <h1 class="mb-3">Zweikampf</h1>
       <p>
@@ -14,27 +12,17 @@
 
     <ConfigBook v-model="book" />
 
-    <ConfigLessons
-      v-if="bookValidated"
-      v-model="expressions"
-      :book="book"
-      :min-expressions="minExpressions"
-    />
+    <ConfigLessons v-if="bookValidated" v-model="expressions" :book="book" :min-expressions="minExpressions" />
 
     <GameConfigGame v-if="expressionsValidated">
-      <GameConfigTime
-        v-model="config.time"
-        :min-time="minTime"
-        :max-time="maxTime"
-        :default-time="config.time"
-      />
+      <GameConfigTime v-model="config.time" :min-time="minTime" :max-time="maxTime" :default-time="config.time" />
     </GameConfigGame>
   </div>
-  <div
-    v-if="expressionsValidated && configValidated"
-    class="text-right animate__animated animate__fadeInUp animate__faster mt-2"
-  >
-    <button class="text-lg" @click="start">Spiel starten!</button>
+  <div v-if="expressionsValidated && configValidated"
+    class="text-right animate__animated animate__fadeInUp animate__faster mt-2">
+    <button class="text-lg" @click="start">
+      <i class="eva eva-play-circle-outline mr-1" />Spiel starten
+    </button>
   </div>
 </template>
 

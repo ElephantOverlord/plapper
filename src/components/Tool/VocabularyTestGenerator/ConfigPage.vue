@@ -1,9 +1,9 @@
 <template>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2">
     <DisplayBox color="gray">
-      <h1 class="mb-3">Wortschatz-Test Generator</h1>
+      <h1 class="mb-3">Vokabular-Test</h1>
       <p>
-        Generieren Sie einen Wortschatz-Test für Ihre Klasse. Wählen Sie die Anzahl
+        Generieren Sie einen Vokabular-Test für Ihre Klasse. Wählen Sie die Anzahl
         der zu prüfenden Vokabeln, ein Lehrmittel und die gewünschten Lerneinheiten
         aus. Der Test und passende Lösungen werden automatisch druckfertig für Sie
         generiert.
@@ -25,7 +25,9 @@
     <ConfigLessons v-if="bookValidated" v-model="expressions" :book="book" :min-expressions="expressionsCount" />
   </div>
   <div v-if="expressionsValidated" class="text-right animate__animated animate__fadeInUp animate__faster mt-2">
-    <button class="text-lg" @click="generatePDF">Test und Lösung herunterladen!</button>
+    <button class="text-lg" @click="generatePDF">
+      <i class="eva eva-cloud-download-outline mr-1" />Test und Lösung herunterladen
+    </button>
   </div>
 </template>
 
@@ -112,7 +114,7 @@ function generateMakepdfTemplate(solution: boolean): TDocumentDefinitions {
     watermark: { text: (solution ? 'Lösung' : ' '), color: 'red', opacity: 0.3, bold: true, italics: false },
     content: [
       // Header section
-      { text: 'Wortschatz-Test', style: 'heading_1' },
+      { text: 'Vokabular-Test', style: 'heading_1' },
       { text: book.value.name, style: 'heading_1_subtitle' },
       {
         style: 'table',
@@ -188,14 +190,13 @@ function generateMakepdfTemplate(solution: boolean): TDocumentDefinitions {
 }
 
 function generatePDF() {
-  // @tsignore
   pdfMake.vfs = vfsFonts.vfs;
   pdfMake
     .createPdf(generateMakepdfTemplate(false))
-    .download('Wortschatz-Test');
+    .download('Vokabular-Test');
   pdfMake
     .createPdf(generateMakepdfTemplate(true))
-    .download('Wortschatz-Test_Loesung');
+    .download('Vokabular-Test_Loesung');
   console.log('did it');
 }
 </script>

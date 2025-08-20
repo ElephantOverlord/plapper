@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2"
-  >
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-2">
     <DisplayBox color="gray">
       <h1 class="mb-3">Staffellauf</h1>
       <p>
@@ -16,29 +14,19 @@
 
     <ConfigBook v-model="book" />
 
-    <ConfigLessons
-      v-if="bookValidated"
-      v-model="expressions"
-      :book="book"
-      :min-expressions="minExpressions"
-    />
+    <ConfigLessons v-if="bookValidated" v-model="expressions" :book="book" :min-expressions="minExpressions" />
 
     <GameConfigGame v-if="expressionsValidated">
-      <GameConfigTime
-        v-model="config.penalty"
-        :min-time="minPenalty"
-        :max-time="maxPenalty"
+      <GameConfigTime v-model="config.penalty" :min-time="minPenalty" :max-time="maxPenalty"
         :default-time="config.penalty"
-        message="Wie lange soll die Strafzeit dauern, wenn eine Aufgabe falsch gelöst wird?"
-        unit="Sekunden"
-      />
+        message="Wie lange soll die Strafzeit dauern, wenn eine Aufgabe falsch gelöst wird?" unit="Sekunden" />
     </GameConfigGame>
   </div>
-  <div
-    v-if="expressionsValidated && configValidated"
-    class="text-right animate__animated animate__fadeInUp animate__faster mt-2"
-  >
-    <button class="text-lg" @click="start">Spiel starten!</button>
+  <div v-if="expressionsValidated && configValidated"
+    class="text-right animate__animated animate__fadeInUp animate__faster mt-2">
+    <button class="text-lg" @click="start">
+      <i class="eva eva-play-circle-outline mr-1" />Spiel starten
+    </button>
   </div>
 </template>
 
