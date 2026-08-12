@@ -120,6 +120,10 @@ const finishBackgroundImage = {
   "background-image": "url(" + finishImageBackground + ")",
 };
 const activePlayerIds = { red: "", blue: "" };
+const penaltyTimeouts = {
+  red: undefined as NodeJS.Timeout | undefined,
+  blue: undefined as NodeJS.Timeout | undefined,
+};
 
 const teams = computed(() => TeamBuilder.fifo(players.value));
 const redPlayer = computed(
@@ -146,6 +150,8 @@ onBeforeMount(() => {
 onBeforeUnmount(() => {
   channel.unsubscribe();
   channel.disconnect();
+  clearTimeout(penaltyTimeouts.red);
+  clearTimeout(penaltyTimeouts.blue);
 });
 
 watch(
@@ -230,7 +236,9 @@ function sulk(teamRed: boolean): void {
     targets: teamRed ? "#teamRed" : "#teamBlue",
     filter: "grayscale(1)",
   });
-  setTimeout(() => {
+  const team = teamRed ? "red" : "blue";
+  clearTimeout(penaltyTimeouts[team]);
+  penaltyTimeouts[team] = setTimeout(() => {
     anime({
       targets: teamRed ? "#teamRed" : "#teamBlue",
       filter: "grayscale(0)",
@@ -244,6 +252,9 @@ function nextPlayer(teamRed: boolean): void {
     stop();
     return;
   }
+  const team = teamRed ? "red" : "blue";
+  clearTimeout(penaltyTimeouts[team]);
+  penaltyTimeouts[team] = undefined;
   teamRed ? roundRed.value++ : roundBlue.value++;
   const nextPlayer = teamRed ? redPlayer.value : bluePlayer.value;
   activePlayerIds[teamRed ? "red" : "blue"] = nextPlayer.id;

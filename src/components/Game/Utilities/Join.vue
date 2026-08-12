@@ -40,7 +40,7 @@ function bindPresenceEvents(): void {
     addPlayer(member);
   });
   props.channel.bind("pusher:member_removed", (member: PresenceMember) => {
-    removePlayer(member.user_id);
+    removePlayer(member.user_id ?? member.id);
   });
   props.channel.bind("pusher:subscription_succeeded", () => {
     const members = (props.channel as Channel & PresenceChannelLike).members;
@@ -67,8 +67,8 @@ function removePlayer(playerId: string): void {
   const index = players.value.findIndex((element) => element.id === playerId);
   if (index >= 0) {
     players.value.splice(index, 1);
-    emit("player-removed", playerId);
     emitModelValue();
+    emit("player-removed", playerId);
   }
 }
 
@@ -77,7 +77,8 @@ function emitModelValue(): void {
 }
 
 interface PresenceMember {
-  user_id: string;
+  id: string;
+  user_id?: string;
   info: Player & { role?: string };
 }
 
