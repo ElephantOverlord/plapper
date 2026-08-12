@@ -53,11 +53,14 @@ Add a block to your `/etc/caddy/Caddyfile`:
 
 ```caddy
 plapper.ch {
-    redir https://www.plapper.ch{uri}
+	redir https://www.plapper.ch{uri}
 }
 
 www.plapper.ch {
-    reverse_proxy 127.0.0.1:9100
+	handle /app/* {
+		reverse_proxy 127.0.0.1:9110
+	}
+	reverse_proxy 127.0.0.1:9100
 }
 ```
 
