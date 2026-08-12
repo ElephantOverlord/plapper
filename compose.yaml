@@ -7,15 +7,23 @@ services:
       - '127.0.0.1:9100:80'
     restart: unless-stopped
 
-  soketi:
-    container_name: 'plapper_soketi'
-    image: quay.io/soketi/soketi:1.6-16-distroless
+  sockudo:
+    container_name: 'plapper_sockudo'
+    image: ghcr.io/sockudo/sockudo:4.7.0
     ports:
       - '127.0.0.1:9110:6001'
     environment:
-      SOKETI_DEBUG: '${SOKETI_DEBUG}'
-      SOKETI_DEFAULT_APP_KEY: '${SOKETI_DEFAULT_APP_KEY}'
-      SOKETI_DEFAULT_APP_ID: '${SOKETI_DEFAULT_APP_ID}'
-      SOKETI_DEFAULT_APP_SECRET: '${SOKETI_DEFAULT_APP_SECRET}'
-      SOKETI_DEFAULT_APP_ENABLE_CLIENT_MESSAGES: '${SOKETI_DEFAULT_APP_ENABLE_CLIENT_MESSAGES}'
+      HOST: 0.0.0.0
+      PORT: 6001
+      DEBUG: '${SOCKUDO_DEBUG}'
+      ADAPTER_DRIVER: local
+      APP_MANAGER_DRIVER: memory
+      CACHE_DRIVER: memory
+      QUEUE_DRIVER: memory
+      SOCKUDO_DEFAULT_APP_ID: '${SOCKUDO_DEFAULT_APP_ID}'
+      SOCKUDO_DEFAULT_APP_KEY: '${SOCKUDO_DEFAULT_APP_KEY}'
+      SOCKUDO_DEFAULT_APP_SECRET: '${SOCKUDO_DEFAULT_APP_SECRET}'
+      SOCKUDO_ENABLE_CLIENT_MESSAGES: '${SOCKUDO_ENABLE_CLIENT_MESSAGES}'
+      METRICS_ENABLED: "false"
+      METRICS_PORT: 9601
     restart: unless-stopped

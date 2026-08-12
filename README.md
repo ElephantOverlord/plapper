@@ -30,7 +30,7 @@ You can now run the frontend in development mode:
 npm run dev
 ```
 
-All games rely on a running instance of the Soketi Websocket Server:
+All games rely on a running instance of the Sockudo Websocket Server:
 
 ```bash
 docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.6-16-debian
