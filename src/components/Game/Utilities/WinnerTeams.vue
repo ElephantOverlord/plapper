@@ -51,6 +51,7 @@
 import { orderBy } from "lodash";
 import party from "party-js";
 import { defineComponent, onMounted } from "vue";
+import { confetti } from "../../../classes/Utilities/Effects";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
 
 defineComponent({
@@ -79,7 +80,7 @@ const audioFinale = new Audio("/snd/finale.m4a");
 function celebrate(): void {
   audioFinale.play();
   setTimeout(() => {
-    party.confetti(document.getElementById("winner") as HTMLElement, {
+    confetti(document.getElementById("winner"), {
       count: party.variation.range(40, 60),
       spread: party.variation.range(20, 40),
       size: party.variation.range(0.5, 1.5),

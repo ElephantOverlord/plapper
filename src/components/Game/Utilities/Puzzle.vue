@@ -37,6 +37,7 @@
 <script lang="ts" setup>
 import party from "party-js";
 import { defineComponent, ref, watch } from "vue";
+import { confetti } from "../../../classes/Utilities/Effects";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
 
 defineComponent({
@@ -91,7 +92,7 @@ function solve(answer: string | any): void {
   const correct = answer === props.solution;
   if (correct) {
     audioSuccess.play();
-    party.confetti(document.getElementById("puzzle") as HTMLElement, {
+    confetti(document.getElementById("puzzle"), {
       count: party.variation.range(40, 60),
       spread: party.variation.range(5, 20),
       size: party.variation.range(0.5, 1.5),

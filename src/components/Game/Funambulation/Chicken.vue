@@ -19,6 +19,7 @@
 import anime from "animejs";
 import party from "party-js";
 import { defineComponent, watch } from "vue";
+import { sparkles } from "../../../classes/Utilities/Effects";
 
 defineComponent({
   name: "GameFunambulationChicken",
@@ -63,7 +64,7 @@ function move(): void {
 }
 
 function celebrate(): void {
-  party.sparkles(document.getElementById("chicken") as HTMLElement, {
+  sparkles(document.getElementById("chicken"), {
     count: party.variation.range(20, 40),
     size: party.variation.range(0.5, 1.5),
   });

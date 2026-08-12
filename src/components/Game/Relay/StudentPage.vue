@@ -62,6 +62,7 @@ const puzzles = ref([] as Array<Puzzle>);
 const puzzling = ref(false);
 const score = ref(0);
 const timeout = ref({} as NodeJS.Timeout);
+const turnId = ref(0);
 const gameResult = ref("draw");
 const backgroundImage = { "background-image": "url(" + imageBackground + ")" };
 
@@ -108,9 +109,10 @@ function bindStopEvent(): void {
 function bindNextPlayerEvent(): void {
   channel.bind(
     "client-nextPlayer",
-    (result: { player: Player; score: number }) => {
+    (result: { player: Player; score: number; turnId: number }) => {
       if (result.player.id === player.id) {
         clearTimeout(timeout.value);
+        turnId.value = result.turnId;
         score.value = result.score;
         puzzling.value = true;
         timeout.value = setTimeout(() => {
@@ -127,6 +129,7 @@ function solve(correct: boolean): void {
   channel.trigger("client-puzzleSolved", {
     playerId: player.id,
     correct,
+    turnId: turnId.value,
   });
 }
 </script>

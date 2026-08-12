@@ -117,6 +117,7 @@ function start(): void {
 }
 
 function stop(): void {
+  if (state.value === GameState.end) return;
   state.value = GameState.end;
   let winner = "draw";
   if (scoreBlue.value < scoreRed.value) {

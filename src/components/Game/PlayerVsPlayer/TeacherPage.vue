@@ -91,6 +91,7 @@ import Puzzle from "../../../classes/Game/Puzzle";
 import PuzzleGenerator from "../../../classes/Game/PuzzleGenerator";
 import TeamBuilder from "../../../classes/Game/TeamBuilder";
 import GameState from "../../../classes/Utilities/GameState";
+import { confetti } from "../../../classes/Utilities/Effects";
 import PusherSubscription from "../../../classes/Utilities/PusherSubscription";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
 import GameUtilitiesCountdown from "../Utilities/Countdown.vue";
@@ -129,6 +130,8 @@ const audioNewRound = new Audio("/snd/start.m4a");
 const audioSuccess = new Audio("/snd/success.m4a");
 const backgroundImage = { "background-image": "url(" + imageBackground + ")" };
 const activePlayerIds = ref([] as Array<string>);
+const roundId = ref(0);
+const solvedPlayerIds = new Set<string>();
 
 const teams = computed(() => TeamBuilder.fifo(players.value));
 const redPlayerIndex = computed(() =>
@@ -151,18 +154,39 @@ onBeforeUnmount(() => {
 function bindEvents(): void {
   channel.bind(
     "client-puzzleSolved",
-    (result: { playerId: string; correct: boolean; time: number }) => {
-      score(result.playerId, result.correct, result.time);
+    (result: {
+      playerId: string;
+      correct: boolean;
+      time: number;
+      roundId: number;
+    }) => {
+      score(result.playerId, result.correct, result.time, result.roundId);
     }
   );
 }
 
-function score(playerId: string, correct: boolean, time: number): void {
+function score(
+  playerId: string,
+  correct: boolean,
+  time: number,
+  resultRoundId: number
+): void {
+  if (
+    resultRoundId !== roundId.value ||
+    !activePlayerIds.value.includes(playerId) ||
+    solvedPlayerIds.has(playerId) ||
+    !Number.isFinite(time)
+  ) {
+    return;
+  }
+  solvedPlayerIds.add(playerId);
+
   if (correct) {
     const player = players.value.find((element) => element.id === playerId);
     if (!player) return;
     celebrate(playerId);
-    const points = 10 - Math.floor(time / 1000);
+    const boundedTime = Math.min(9999, Math.max(0, time));
+    const points = Math.max(1, 10 - Math.floor(boundedTime / 1000));
     player.score += points;
     const isTeamRed =
       teams.value.red.findIndex((player) => player.id === playerId) !== -1;
@@ -176,7 +200,7 @@ function score(playerId: string, correct: boolean, time: number): void {
 
 function celebrate(playerId: string): void {
   audioSuccess.play();
-  party.confetti(document.getElementById(playerId) as HTMLElement, {
+  confetti(document.getElementById(playerId), {
     count: party.variation.range(10, 30),
     spread: party.variation.range(1, 5),
     size: party.variation.range(0.5, 1.5),
@@ -190,13 +214,16 @@ function newRound(): void {
   }
   teamRedRandomOrder.value = shuffle([...teams.value.red]);
   teamBlueRandomOrder.value = shuffle([...teams.value.blue]);
+  roundId.value++;
+  solvedPlayerIds.clear();
   puzzle.value = puzzleGenerator.generate();
   channel.trigger("client-puzzle", {
-    playerIds: [
+      playerIds: [
       teamRedRandomOrder.value[redPlayerIndex.value].id,
       teamBlueRandomOrder.value[bluePlayerIndex.value].id,
-    ],
-    puzzle: puzzle.value,
+      ],
+      roundId: roundId.value,
+      puzzle: puzzle.value,
   });
   activePlayerIds.value = [
     teamRedRandomOrder.value[redPlayerIndex.value].id,
@@ -236,6 +263,7 @@ function start(): void {
 }
 
 function stop(): void {
+  if (state.value === GameState.end) return;
   state.value = GameState.end;
   let winner = "draw";
   if (scoreBlue.value < scoreRed.value) {

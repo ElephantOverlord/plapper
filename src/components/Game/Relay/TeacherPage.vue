@@ -84,6 +84,7 @@ import PuzzleGenerator from "../../../classes/Game/PuzzleGenerator";
 import RelayGame from "../../../classes/Game/RelayGame";
 import TeamBuilder from "../../../classes/Game/TeamBuilder";
 import GameState from "../../../classes/Utilities/GameState";
+import { confetti } from "../../../classes/Utilities/Effects";
 import PusherSubscription from "../../../classes/Utilities/PusherSubscription";
 import DisplayBox from "../../Utilities/DisplayBox.vue";
 import GameUtilitiesJoin from "../Utilities/Join.vue";
@@ -120,6 +121,8 @@ const finishBackgroundImage = {
   "background-image": "url(" + finishImageBackground + ")",
 };
 const activePlayerIds = { red: "", blue: "" };
+const activeTurnIds = { red: 0, blue: 0 };
+const resolvedTurnIds = { red: 0, blue: 0 };
 const penaltyTimeouts = {
   red: undefined as NodeJS.Timeout | undefined,
   blue: undefined as NodeJS.Timeout | undefined,
@@ -181,9 +184,9 @@ watch(
 function bindEvents(): void {
   channel.bind(
     "client-puzzleSolved",
-    (result: { playerId: string; correct: boolean }) => {
+    (result: { playerId: string; correct: boolean; turnId: number }) => {
       if (state.value === GameState.run) {
-        score(result.playerId, result.correct);
+        score(result.playerId, result.correct, result.turnId);
       }
     }
   );
@@ -195,14 +198,22 @@ function generatePuzzles(): void {
   }
 }
 
-function score(playerId: string, correct: boolean): void {
-  const isTeamRed =
-    teams.value.red.findIndex((player) => player.id === playerId) !== -1;
+function score(playerId: string, correct: boolean, turnId: number): void {
+  const teamRed = activePlayerIds.red === playerId;
+  const teamBlue = activePlayerIds.blue === playerId;
+  if ((!teamRed && !teamBlue) || !Number.isInteger(turnId)) return;
+
+  const team = teamRed ? "red" : "blue";
+  if (activeTurnIds[team] !== turnId || resolvedTurnIds[team] === turnId) {
+    return;
+  }
+  resolvedTurnIds[team] = turnId;
+
   if (correct) {
     const player = players.value.find((element) => element.id === playerId);
     if (!player) return;
     player.score++;
-    if (isTeamRed) {
+    if (teamRed) {
       scoreRed.value++;
       celebrate(true);
     } else {
@@ -212,16 +223,16 @@ function score(playerId: string, correct: boolean): void {
     if (gameOver.value) {
       stop();
     } else {
-      nextPlayer(isTeamRed);
+      nextPlayer(teamRed);
     }
   } else {
-    sulk(isTeamRed);
+      sulk(teamRed);
   }
 }
 
 function celebrate(teamRed: boolean): void {
   audioSuccess.play();
-  party.confetti(
+  confetti(
     document.getElementById(teamRed ? "teamRed" : "teamBlue") as HTMLElement,
     {
       count: party.variation.range(10, 30),
@@ -248,6 +259,7 @@ function sulk(teamRed: boolean): void {
 }
 
 function nextPlayer(teamRed: boolean): void {
+  if (state.value !== GameState.run) return;
   if (!teams.value.red.length || !teams.value.blue.length) {
     stop();
     return;
@@ -257,10 +269,13 @@ function nextPlayer(teamRed: boolean): void {
   penaltyTimeouts[team] = undefined;
   teamRed ? roundRed.value++ : roundBlue.value++;
   const nextPlayer = teamRed ? redPlayer.value : bluePlayer.value;
-  activePlayerIds[teamRed ? "red" : "blue"] = nextPlayer.id;
+  activeTurnIds[team]++;
+  resolvedTurnIds[team] = 0;
+  activePlayerIds[team] = nextPlayer.id;
   channel.trigger("client-nextPlayer", {
     player: nextPlayer,
     score: teamRed ? scoreRed.value : scoreBlue.value,
+    turnId: activeTurnIds[team],
   });
 }
 
@@ -282,6 +297,7 @@ function start(): void {
 }
 
 function stop(): void {
+  if (state.value === GameState.end) return;
   state.value = GameState.end;
   let winner = "draw";
   if (scoreBlue.value < scoreRed.value) {

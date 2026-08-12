@@ -50,6 +50,8 @@ const state = ref(GameState.pre);
 const puzzle = ref({} as Puzzle);
 const puzzling = ref(false);
 const puzzlingStart = ref(0);
+const roundId = ref(0);
+const puzzleTimeout = ref({} as NodeJS.Timeout);
 const gameResult = ref("draw");
 const backgroundImage = { "background-image": "url(" + imageBackground + ")" };
 
@@ -60,6 +62,7 @@ onBeforeMount(() => {
 });
 
 onBeforeUnmount(() => {
+  clearTimeout(puzzleTimeout.value);
   channel.unsubscribe();
   channel.disconnect();
 });
@@ -93,12 +96,14 @@ function bindStopEvent(): void {
 function bindPuzzleEvent(): void {
   channel.bind(
     "client-puzzle",
-    (result: { playerIds: Array<string>; puzzle: Puzzle }) => {
+    (result: { playerIds: Array<string>; puzzle: Puzzle; roundId: number }) => {
+      clearTimeout(puzzleTimeout.value);
+      roundId.value = result.roundId;
       if (result.playerIds.includes(player.id)) {
         puzzle.value = result.puzzle;
         puzzling.value = true;
         puzzlingStart.value = new Date().getTime();
-        setTimeout(() => {
+        puzzleTimeout.value = setTimeout(() => {
           puzzling.value = false;
         }, 9000);
       } else {
@@ -113,6 +118,7 @@ function solve(correct: boolean): void {
     playerId: player.id,
     correct,
     time: -(puzzlingStart.value - new Date().getTime()),
+    roundId: roundId.value,
     puzzleId: puzzle.value.id,
   });
 }
