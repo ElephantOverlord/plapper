@@ -7,6 +7,18 @@ services:
       - '127.0.0.1:9100:80'
     restart: unless-stopped
 
+  sockudo-auth:
+    container_name: 'plapper_sockudo_auth'
+    build: ./auth
+    ports:
+      - '127.0.0.1:9120:9120'
+    environment:
+      HOST: 0.0.0.0
+      PORT: 9120
+      SOCKUDO_DEFAULT_APP_KEY: '${SOCKUDO_DEFAULT_APP_KEY}'
+      SOCKUDO_DEFAULT_APP_SECRET: '${SOCKUDO_DEFAULT_APP_SECRET}'
+    restart: unless-stopped
+
   sockudo:
     container_name: 'plapper_sockudo'
     image: ghcr.io/sockudo/sockudo:4.7.0

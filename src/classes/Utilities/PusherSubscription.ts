@@ -7,5 +7,11 @@ export default function (code: string): Channel {
     forceTLS: false,
     disableStats: true,
     enabledTransports: ["ws", "wss"],
-  }).subscribe(code);
+    // Sockudo only accepts client events on private or presence channels.
+    // The endpoint must sign `socket_id:channel_name` with the Sockudo app
+    // secret on the server; the secret must never be exposed to this bundle.
+    authEndpoint:
+      (import.meta.env.VITE_SOCKUDO_AUTH_ENDPOINT as string) ||
+      "/broadcasting/auth",
+  }).subscribe(`private-${code}`);
 }

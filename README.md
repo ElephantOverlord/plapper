@@ -30,10 +30,10 @@ You can now run the frontend in development mode:
 npm run dev
 ```
 
-All games rely on a running instance of the Sockudo Websocket Server:
+All games rely on Sockudo and its private-channel authentication service:
 
 ```bash
-docker run -p 9110:6001 --env-file .env ghcr.io/sockudo/sockudo:4.7.0
+docker compose up sockudo sockudo-auth
 ```
 
 ## Production Deployment
@@ -57,6 +57,9 @@ plapper.ch {
 }
 
 www.plapper.ch {
+	handle /broadcasting/auth {
+		reverse_proxy 127.0.0.1:9120
+	}
 	handle /app/* {
 		reverse_proxy 127.0.0.1:9110
 	}
