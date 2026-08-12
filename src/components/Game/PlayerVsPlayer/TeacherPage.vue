@@ -5,6 +5,7 @@
       :game="game"
       :channel="channel"
       :state="state"
+      @player-removed="playerRemoved"
     />
     <GameUtilitiesJoinTeams
       v-if="state === GameState.pre"
@@ -127,10 +128,15 @@ const interval = ref({} as NodeJS.Timeout);
 const audioNewRound = new Audio("/snd/start.m4a");
 const audioSuccess = new Audio("/snd/success.m4a");
 const backgroundImage = { "background-image": "url(" + imageBackground + ")" };
+const activePlayerIds = ref([] as Array<string>);
 
 const teams = computed(() => TeamBuilder.fifo(players.value));
-const redPlayerIndex = computed(() => round.value % teams.value.red.length);
-const bluePlayerIndex = computed(() => round.value % teams.value.blue.length);
+const redPlayerIndex = computed(() =>
+  teams.value.red.length ? round.value % teams.value.red.length : 0
+);
+const bluePlayerIndex = computed(() =>
+  teams.value.blue.length ? round.value % teams.value.blue.length : 0
+);
 
 onBeforeMount(() => {
   bindEvents();
@@ -153,11 +159,11 @@ function bindEvents(): void {
 
 function score(playerId: string, correct: boolean, time: number): void {
   if (correct) {
+    const player = players.value.find((element) => element.id === playerId);
+    if (!player) return;
     celebrate(playerId);
     const points = 10 - Math.floor(time / 1000);
-    players.value[
-      players.value.findIndex((player) => player.id === playerId)
-    ].score += points;
+    player.score += points;
     const isTeamRed =
       teams.value.red.findIndex((player) => player.id === playerId) !== -1;
     if (isTeamRed) {
@@ -178,12 +184,12 @@ function celebrate(playerId: string): void {
 }
 
 function newRound(): void {
-  if (redPlayerIndex.value === 0) {
-    teamRedRandomOrder.value = shuffle(teams.value.red);
+  if (!teams.value.red.length || !teams.value.blue.length) {
+    stop();
+    return;
   }
-  if (bluePlayerIndex.value === 0) {
-    teamBlueRandomOrder.value = shuffle(teams.value.blue);
-  }
+  teamRedRandomOrder.value = shuffle([...teams.value.red]);
+  teamBlueRandomOrder.value = shuffle([...teams.value.blue]);
   puzzle.value = puzzleGenerator.generate();
   channel.trigger("client-puzzle", {
     playerIds: [
@@ -192,6 +198,10 @@ function newRound(): void {
     ],
     puzzle: puzzle.value,
   });
+  activePlayerIds.value = [
+    teamRedRandomOrder.value[redPlayerIndex.value].id,
+    teamBlueRandomOrder.value[bluePlayerIndex.value].id,
+  ];
   timer.value = 10;
   interval.value = setInterval(() => {
     timer.value--;
@@ -204,6 +214,19 @@ function newRound(): void {
       }
     }
   }, 1000);
+}
+
+function playerRemoved(playerId: string): void {
+  if (state.value !== GameState.run) return;
+  if (players.value.length < 2) {
+    stop();
+    return;
+  }
+  if (activePlayerIds.value.includes(playerId)) {
+    clearInterval(interval.value);
+    round.value++;
+    newRound();
+  }
 }
 
 function start(): void {

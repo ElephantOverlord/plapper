@@ -52,8 +52,8 @@ const props = defineProps({
   },
 });
 
-const channel = PusherSubscription(props.game.code);
 const player = Store.loadPlayerStudent();
+const channel = PusherSubscription(props.game.code, player);
 const state = ref(GameState.pre);
 const puzzleGenerator = new PuzzleGenerator(props.game.expressions);
 const puzzle = ref(puzzleGenerator.generate());
@@ -66,7 +66,6 @@ onBeforeMount(() => {
 });
 
 onBeforeUnmount(() => {
-  channel.trigger("client-leave", player);
   channel.unsubscribe();
   channel.disconnect();
 });

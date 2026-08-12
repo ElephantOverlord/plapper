@@ -5,6 +5,7 @@
       :channel="channel"
       :game="game"
       :state="state"
+      @player-removed="playerRemoved"
     />
     <GameUtilitiesJoinTeams
       v-if="state === GameState.pre"
@@ -133,6 +134,7 @@ function scorePlayer(player: Player): void {
   const index = players.value.findIndex(
     (element: Player) => element.id === player.id
   );
+  if (index < 0) return;
   const isTeamRed =
     teams.value.blue.findIndex(
       (element: Player) => element.id === player.id
@@ -142,6 +144,12 @@ function scorePlayer(player: Player): void {
     chickenPosition.value--;
   } else {
     chickenPosition.value++;
+  }
+}
+
+function playerRemoved(): void {
+  if (state.value === GameState.run && players.value.length < 2) {
+    stop();
   }
 }
 

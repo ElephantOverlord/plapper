@@ -45,7 +45,7 @@ const props = defineProps({
 });
 
 const player = Store.loadPlayerStudent();
-const channel = PusherSubscription(props.game.code);
+const channel = PusherSubscription(props.game.code, player);
 const state = ref(GameState.pre);
 const puzzle = ref({} as Puzzle);
 const puzzling = ref(false);
@@ -60,7 +60,6 @@ onBeforeMount(() => {
 });
 
 onBeforeUnmount(() => {
-  channel.trigger("client-leave", player);
   channel.unsubscribe();
   channel.disconnect();
 });

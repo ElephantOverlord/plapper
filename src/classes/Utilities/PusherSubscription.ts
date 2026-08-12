@@ -1,6 +1,11 @@
 import Pusher, { Channel } from "pusher-js";
+import Player from "../Game/Player";
 
-export default function (code: string): Channel {
+export default function (code: string, player?: Player): Channel {
+  const member = player
+    ? { ...player, role: "student" }
+    : { id: `teacher-${Date.now()}-${Math.random()}`, role: "teacher" };
+
   return new Pusher(import.meta.env.VITE_SOCKUDO_KEY as string, {
     wsHost: import.meta.env.VITE_SOCKUDO_HOST as string,
     wsPort: Number.parseInt(import.meta.env.VITE_SOCKUDO_PORT as string),
@@ -13,5 +18,11 @@ export default function (code: string): Channel {
     authEndpoint:
       (import.meta.env.VITE_SOCKUDO_AUTH_ENDPOINT as string) ||
       "/broadcasting/auth",
-  }).subscribe(`private-${code}`);
+    auth: {
+      params: {
+        user_id: member.id,
+        user_info: JSON.stringify(member),
+      },
+    },
+  }).subscribe(`presence-${code}`);
 }

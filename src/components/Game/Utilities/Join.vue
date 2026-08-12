@@ -27,39 +27,64 @@ const props = defineProps({
   },
 });
 
-const emit = defineEmits(["update:modelValue"]);
+const emit = defineEmits(["update:modelValue", "player-removed"]);
 
 const players = ref([] as Array<Player>);
 
 onBeforeMount(() => {
-  bindJoinEvent();
-  bindLeaveEvent();
+  bindPresenceEvents();
 });
 
-function bindJoinEvent(): void {
-  props.channel.bind("client-join", (player: Player) => {
-    players.value.push(player);
-    props.channel.trigger("client-game-" + player.id, props.game);
-    emitModelValue();
+function bindPresenceEvents(): void {
+  props.channel.bind("pusher:member_added", (member: PresenceMember) => {
+    addPlayer(member);
+  });
+  props.channel.bind("pusher:member_removed", (member: PresenceMember) => {
+    removePlayer(member.user_id);
+  });
+  props.channel.bind("pusher:subscription_succeeded", () => {
+    const members = (props.channel as Channel & PresenceChannelLike).members;
+    members?.each((member: PresenceMember) => addPlayer(member));
   });
 }
 
-function bindLeaveEvent(): void {
-  props.channel.bind("client-leave", (player: Player) => {
-    if (props.state !== GameState.end) {
-      const index = players.value.findIndex(
-        (element) => element.id === player.id
-      );
-      if (index >= 0) {
-        players.value.splice(index, 1);
-        emitModelValue();
-      }
-    }
-  });
+function addPlayer(member: PresenceMember): void {
+  const player = member.info;
+  if (!player || player.role !== "student") return;
+
+  const index = players.value.findIndex((element) => element.id === player.id);
+  if (index >= 0) {
+    players.value[index] = player;
+  } else {
+    players.value.push(player);
+  }
+  props.channel.trigger("client-game-" + player.id, props.game);
+  emitModelValue();
+}
+
+function removePlayer(playerId: string): void {
+  if (props.state === GameState.end) return;
+  const index = players.value.findIndex((element) => element.id === playerId);
+  if (index >= 0) {
+    players.value.splice(index, 1);
+    emit("player-removed", playerId);
+    emitModelValue();
+  }
 }
 
 function emitModelValue(): void {
   emit("update:modelValue", players.value);
+}
+
+interface PresenceMember {
+  user_id: string;
+  info: Player & { role?: string };
+}
+
+interface PresenceChannelLike {
+  members?: {
+    each(callback: (member: PresenceMember) => void): void;
+  };
 }
 </script>
 

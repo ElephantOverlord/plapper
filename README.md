@@ -30,7 +30,7 @@ You can now run the frontend in development mode:
 npm run dev
 ```
 
-All games rely on Sockudo and its private-channel authentication service:
+All games rely on Sockudo and its presence-channel authentication service:
 
 ```bash
 docker compose up sockudo sockudo-auth

@@ -19,12 +19,6 @@ function json(response, status, body) {
   response.end(JSON.stringify(body));
 }
 
-function authorizedSignature(socketId, channelName) {
-  return createHmac("sha256", appSecret)
-    .update(`${socketId}:${channelName}`)
-    .digest("hex");
-}
-
 const server = createServer(async (request, response) => {
   if (request.method === "OPTIONS") {
     response.writeHead(204, {
@@ -46,18 +40,36 @@ const server = createServer(async (request, response) => {
   const channelName = body.get("channel_name");
 
   // This application currently has anonymous players. The game code is the
-  // access token, so only sign the private game channels used by the client.
+  // access token, so only sign the presence game channels used by the client.
   if (
     !socketId ||
     !/^\d+(?:\.\d+)?$/.test(socketId) ||
     !channelName ||
-    !/^private-[A-Za-z0-9_-]{4,64}$/.test(channelName)
+    !/^presence-[A-Za-z0-9_-]{4,64}$/.test(channelName) ||
+    !body.get("user_id") ||
+    !body.get("user_info")
   ) {
     return json(response, 403, { error: "Invalid channel authorization request" });
   }
 
-  const signature = authorizedSignature(socketId, channelName);
-  return json(response, 200, { auth: `${appKey}:${signature}` });
+  let userInfo;
+  try {
+    userInfo = JSON.parse(body.get("user_info"));
+  } catch {
+    return json(response, 403, { error: "Invalid presence data" });
+  }
+
+  const channelData = JSON.stringify({
+    user_id: body.get("user_id"),
+    user_info: userInfo,
+  });
+  const signature = createHmac("sha256", appSecret)
+    .update(`${socketId}:${channelName}:${channelData}`)
+    .digest("hex");
+  return json(response, 200, {
+    auth: `${appKey}:${signature}`,
+    channel_data: channelData,
+  });
 });
 
 server.listen(port, host, () => {

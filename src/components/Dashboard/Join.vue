@@ -67,10 +67,7 @@ function join(): void {
 }
 
 function connect(failTimeout: NodeJS.Timeout): void {
-  const channel = PusherSubscription(formattedCode.value);
-  channel.bind("pusher:subscription_succeeded", () => {
-    channel.trigger("client-join", player.value);
-  });
+  const channel = PusherSubscription(formattedCode.value, player.value);
   channel.bind("client-game-" + player.value.id, (game: Game) => {
     clearTimeout(failTimeout);
     Store.storeGameStudent(game);

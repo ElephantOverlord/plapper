@@ -5,6 +5,7 @@
       :game="game"
       :channel="channel"
       :state="state"
+      @player-removed="playerRemoved"
     />
     <GameUtilitiesJoinTeams
       v-if="state === GameState.pre"
@@ -118,13 +119,20 @@ const backgroundImage = { "background-image": "url(" + imageBackground + ")" };
 const finishBackgroundImage = {
   "background-image": "url(" + finishImageBackground + ")",
 };
+const activePlayerIds = { red: "", blue: "" };
 
 const teams = computed(() => TeamBuilder.fifo(players.value));
 const redPlayer = computed(
-  () => teams.value.red[roundRed.value % teams.value.red.length]
+  () =>
+    teams.value.red.length
+      ? teams.value.red[roundRed.value % teams.value.red.length]
+      : ({} as Player)
 );
 const bluePlayer = computed(
-  () => teams.value.blue[roundBlue.value % teams.value.blue.length]
+  () =>
+    teams.value.blue.length
+      ? teams.value.blue[roundBlue.value % teams.value.blue.length]
+      : ({} as Player)
 );
 const gameOver = computed(
   () => scoreRed.value >= numRounds || scoreBlue.value >= numRounds
@@ -185,8 +193,9 @@ function score(playerId: string, correct: boolean): void {
   const isTeamRed =
     teams.value.red.findIndex((player) => player.id === playerId) !== -1;
   if (correct) {
-    players.value[players.value.findIndex((player) => player.id === playerId)]
-      .score++;
+    const player = players.value.find((element) => element.id === playerId);
+    if (!player) return;
+    player.score++;
     if (isTeamRed) {
       scoreRed.value++;
       celebrate(true);
@@ -231,11 +240,27 @@ function sulk(teamRed: boolean): void {
 }
 
 function nextPlayer(teamRed: boolean): void {
+  if (!teams.value.red.length || !teams.value.blue.length) {
+    stop();
+    return;
+  }
   teamRed ? roundRed.value++ : roundBlue.value++;
+  const nextPlayer = teamRed ? redPlayer.value : bluePlayer.value;
+  activePlayerIds[teamRed ? "red" : "blue"] = nextPlayer.id;
   channel.trigger("client-nextPlayer", {
-    player: teamRed ? redPlayer.value : bluePlayer.value,
+    player: nextPlayer,
     score: teamRed ? scoreRed.value : scoreBlue.value,
   });
+}
+
+function playerRemoved(playerId: string): void {
+  if (state.value !== GameState.run) return;
+  if (players.value.length < 2) {
+    stop();
+    return;
+  }
+  if (activePlayerIds.red === playerId) nextPlayer(true);
+  if (activePlayerIds.blue === playerId) nextPlayer(false);
 }
 
 function start(): void {
