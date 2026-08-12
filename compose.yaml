@@ -1,17 +1,17 @@
 services:
 
-  nginx:
-    container_name: 'plapper_nginx'
+  app:
+    container_name: 'plapper_app'
     build: .
     ports:
-      - '9100:80'
+      - '127.0.0.1:9100:80'
     restart: unless-stopped
 
   soketi:
     container_name: 'plapper_soketi'
     image: quay.io/soketi/soketi:1.6-16-distroless
     ports:
-      - '9110:6001'
+      - '127.0.0.1:9110:6001'
     environment:
       SOKETI_DEBUG: '${SOKETI_DEBUG}'
       SOKETI_DEFAULT_APP_KEY: '${SOKETI_DEFAULT_APP_KEY}'

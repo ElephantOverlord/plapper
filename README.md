@@ -44,44 +44,20 @@ Pull the repository, copy `.env.prod.example` to `.env` and make the necessary a
 docker compose up -d --build
 ```
 
-Make sure Nginx is installed on your server and create the necessary reverse proxy:
+The container only ever listens on `127.0.0.1` at the port you mapped in
+`compose.yaml` — it's never reachable from outside the VPS directly. The host's own Caddy (already installed and
+managing SSL certificates on the VPS, outside of Docker) is what actually receives public traffic and forwards it
+inward.
 
-```
-server {
-  listen 80;
-  listen [::]:80;
-  server_name plapper.ch www.plapper.ch;
+Add a block to your `/etc/caddy/Caddyfile`:
 
-  if ($host = plapper.ch) {
-      return 301 $scheme://www.$host$request_uri;
-  }
-
-  location / {
-    proxy_pass http://127.0.0.1:9100;
-    proxy_set_header Host $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto $scheme;
-  }
-
-  location /app/ {
-    proxy_pass http://127.0.0.1:9110;
-    proxy_http_version 1.1;
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection "Upgrade";
-    proxy_set_header Host $host;
-    proxy_set_header X-Real-IP $remote_addr;
-    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header X-Forwarded-Proto $scheme;
-  }
+```caddy
+plapper.ch {
+    reverse_proxy 127.0.0.1:9100
 }
 ```
 
-
-Install [Certbot](https://certbot.eff.org) and get a free SSL certificate from Let's Encrypt. Don't forget to add HTTP2
-support to the generated Nginx configuration file:
-
-```bash
-sed -i "s/443 ssl/443 ssl http2/" /etc/nginx/sites-available/plapper.ch
-```
-
+Replace `plapper.ch` with your actual domain, and `9100` with whichever host port you mapped to the container
+in `compose.yaml`. Make sure DNS for your domain already resolves to this VPS, and that port 80 is open in your
+firewall — Caddy needs it briefly to complete the Let's Encrypt challenge, even though it'll redirect everything to 443
+afterward.
