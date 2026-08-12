@@ -7,7 +7,7 @@ based on the official Swiss cantonal schoolbook selection.
 - [Vue 3](https://v3.vuejs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS 3](https://tailwindcss.com/)
-- [Soketi Websocket Server](https://docs.soketi.app/)
+- [Sockudo Websocket Server](https://sockudo.io/)
 - [Pusher JS](https://github.com/pusher/pusher-js)
 - [anime.js](https://animejs.com/)
 - [party.js](https://party.js.org/)
@@ -33,7 +33,7 @@ npm run dev
 All games rely on a running instance of the Sockudo Websocket Server:
 
 ```bash
-docker run -p 9110:6001 --env-file .env quay.io/soketi/soketi:1.6-16-debian
+docker run -p 9110:6001 --env-file .env ghcr.io/sockudo/sockudo:4.7.0
 ```
 
 ## Production Deployment
