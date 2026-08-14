@@ -71,3 +71,12 @@ Replace `plapper.ch` with your actual domain, and `9100` with whichever host por
 in `compose.yaml`. Make sure DNS for your domain already resolves to this VPS, and that port 80 is open in your
 firewall — Caddy needs it briefly to complete the Let's Encrypt challenge, even though it'll redirect everything to 443
 afterward.
+
+Validate and reload the Caddy configuration:
+
+```bash
+caddy validate --config /etc/caddy/Caddyfile
+caddy reload --config /etc/caddy/Caddyfile
+```
+
+Caddy will automatically provision and renew your SSL certificates via Let's Encrypt.
